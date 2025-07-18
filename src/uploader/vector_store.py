@@ -101,42 +101,9 @@ def upload_files_to_vector_store_batch(file_paths: List[str], vector_store_id: s
 
         print(f"Batch upload status: {file_batch.status}")
         print(f"File counts: {file_batch.file_counts}")
-        log_batch_upload(file_paths, vector_store_id, file_batch.status, file_batch.file_counts)
+
+        return file_batch
 
     except Exception as e:
         print(f"Error during batch upload: {e}")
-
-def log_batch_upload(file_paths, vector_store_id, status, file_counts):
-    """
-    Log the details of a batch upload to a file include the vector store ID, status, and total files and chunks were embedded.
-
-    Args:
-        file_paths (List[str]): Files uploaded.
-        vector_store_id (str): Target Vector Store.
-        status (str): Batch status.
-        file_counts: Object with attributes completed, in_progress, etc.
-
-    Returns:
-        None
-    """
-    # Ensure the log directory exists
-    log_path = "./outputs/upload_log.txt"
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)
-
-    # Prepare log content
-    total_files = len(file_paths)
-    total_chunks = file_counts.completed  
-
-    # Write log to file
-    with open(log_path, "w", encoding="utf-8") as f:
-        f.write(f"=== Batch Upload ===\n")
-        f.write(f"Vector Store ID: {vector_store_id}\n")
-        f.write(f"Status: {status}\n")
-        f.write(f"\n")
-        f.write(f"Total files embedded: {total_files}\n")
-        f.write(f"Total chunks embedded: {total_chunks}\n")
-        f.write(f"\n")
-
-        for path in file_paths:
-            f.write(f"File: {path}\n")
-
+        raise
