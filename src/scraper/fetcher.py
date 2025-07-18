@@ -1,4 +1,5 @@
 import requests
+from ..config import BASE_URL
 
 def fetch_articles(limit=50, per_page=10):
     """
@@ -17,7 +18,6 @@ def fetch_articles(limit=50, per_page=10):
 
     print(f"Starting to fetch articles from OptiSigns API (limit: {limit})")
 
-    BASE_URL = "https://support.optisigns.com/api/v2/help_center/en-us/articles.json"
     url = f"{BASE_URL}?per_page={per_page}"
     articles = []
     page_count = 0

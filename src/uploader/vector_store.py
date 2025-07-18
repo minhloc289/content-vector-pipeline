@@ -1,15 +1,12 @@
-import os
 from openai import OpenAI
-from dotenv import load_dotenv
 from typing import List
-from pathlib import Path
+from ..config import (
+    OPENAI_API_KEY,
+    MAX_CHUNK_SIZE_TOKENS,
+    CHUNK_OVERLAP_TOKENS
+)
 
-# Load environment variables from .env file
-load_dotenv()
-
-# Initialize OpenAI client
-openai_api_key = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key=openai_api_key)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 def get_vector_store_by_name(name="OptiBotVectorStore") -> str | None:
     """
@@ -93,8 +90,8 @@ def upload_files_to_vector_store_batch(file_paths: List[str], vector_store_id: s
             chunking_strategy={
                 "type": "static",
                 "static": {
-                    "max_chunk_size_tokens": 600,
-                    "chunk_overlap_tokens": 200
+                    "max_chunk_size_tokens": MAX_CHUNK_SIZE_TOKENS,
+                    "chunk_overlap_tokens": CHUNK_OVERLAP_TOKENS
                 }
             }
         )

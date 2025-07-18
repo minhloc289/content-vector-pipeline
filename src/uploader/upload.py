@@ -1,7 +1,8 @@
 from .vector_store import ensure_vector_store_exists, upload_files_to_vector_store_batch
 from .file_handlers import validate_article_file_paths 
+from ..config import BATCH_SIZE
 
-def upload_delta_articles_in_batches(categorized_articles, batch_size=10):
+def upload_delta_articles_in_batches(categorized_articles, batch_size=BATCH_SIZE):
     """
     Upload new or updated articles to the vector store in batches based on categorized_articles.
 
