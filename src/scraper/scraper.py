@@ -135,10 +135,10 @@ def main():
         print(f"Loaded metadata for {len(tracked_metadata)} articles")
 
         # Fetch articles
-        articles = fetch_articles(limit=70, per_page=10)
+        articles = fetch_articles(limit=10, per_page=10)
         new_count = 0
         updated_count = 0
-        delta_articles = {"newArticles": set(), "updatedArticles": set()}
+        categorized_articles = {"new_articles": set(), "updated_articles": set()}
 
         # Process articles
         for article in articles:
@@ -146,23 +146,25 @@ def main():
             if saved:
                 if status == 'new':
                     new_count += 1
-                    delta_articles["newArticles"].add(article_id)
+                    categorized_articles["new_articles"].add(article_id)
                 elif status == 'updated':
                     updated_count += 1
-                    delta_articles["updatedArticles"].add(article_id)
+                    categorized_articles["updated_articles"].add(article_id)
 
         # Save updated tracked metadata
         save_tracked_metadata(tracked_metadata)
         print(f"Processed {len(articles)} articles, saved {new_count} new and {updated_count} updated articles")
-        if delta_articles["newArticles"] or delta_articles["updatedArticles"]:
-            print(f"New or updated article IDs: newArticles: {{{', '.join(delta_articles['newArticles'])}}}, updatedArticles: {{{', '.join(delta_articles['updatedArticles'])}}}")
+        if categorized_articles["new_articles"] or categorized_articles["updated_articles"]:
+            print(
+                f"New or updated article IDs:\n"
+                f"  new_articles: {{{', '.join(categorized_articles['new_articles'])}}}\n"
+                f"  updated_articles: {{{', '.join(categorized_articles['updated_articles'])}}}"
+            )
         else:
             print("No new or updated articles")
 
-        return delta_articles
+        return categorized_articles
 
     except Exception as e:
         print(f"Failed to complete the scraping process: {e}")
-        return {"newArticles": set(), "updatedArticles": set()}
-if __name__ == "__main__":
-    main()
+        return {"new_articles": set(), "updated_articles": set()}
