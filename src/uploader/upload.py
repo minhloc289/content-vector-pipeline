@@ -1,23 +1,5 @@
-import os
-from itertools import islice
 from .vector_store import ensure_vector_store_exists, upload_files_to_vector_store_batch
 from .file_handlers import validate_article_file_paths 
-from datetime import datetime
-
-def chunked_iterable(iterable, chunk_size):
-    """
-    Yield successive chunks of the specified size from an iterable.
-
-    Args:
-        iterable: The iterable to split into chunks.
-        chunk_size (int): The size of each chunk.
-
-    Yields:
-        list: A chunk of the iterable with up to chunk_size elements.
-    """
-    iterator = iter(iterable)
-    while chunk := list(islice(iterator, chunk_size)):
-        yield chunk
 
 def upload_delta_articles_in_batches(categorized_articles, batch_size=10):
     """
@@ -47,11 +29,11 @@ def upload_delta_articles_in_batches(categorized_articles, batch_size=10):
 
         # Upload files in batches
         print(f"Starting batch upload process with {len(valid_paths)} files...")
-        for batch_num in range(0, len(valid_paths), 10):
+        for batch_num in range(0, len(valid_paths), batch_size):
             try:
                 # Get the current batch of file paths
-                batch_paths = valid_paths[batch_num:batch_num + 10]
-                batch_number = batch_num // 10 + 1
+                batch_paths = valid_paths[batch_num:batch_num + batch_size]
+                batch_number = batch_num // batch_size + 1
 
                 print(f"Uploading batch {batch_number} with {len(batch_paths)} files: {batch_paths}")
                 
@@ -67,7 +49,7 @@ def upload_delta_articles_in_batches(categorized_articles, batch_size=10):
                 print(f"Running totals - Files Embedded: {total_files_embedded}, Chunks Embedded: {total_chunks_embedded}")
 
             except Exception as e:
-                print(f"Failed to upload batch {batch_num // 10 + 1}. Error: {e}")
+                print(f"Failed to upload batch {batch_num // batch_size + 1}. Error: {e}")
                 print(f"Skipped files in batch: {batch_paths}")
 
         print(f"Completed uploading {total_files_embedded} articles to vector store")
