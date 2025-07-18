@@ -10,6 +10,8 @@ BASE_URL = "https://support.optisigns.com/api/v2/help_center/en-us/articles.json
 BATCH_SIZE = 10
 MAX_CHUNK_SIZE_TOKENS = 600
 CHUNK_OVERLAP_TOKENS = 200
+VECTOR_STORE_NAME = "optibot_vector_store_v1"
+TIME_SLEEP_IN_SECONDS = 2
 
 # Set up logging 
 def setup_logging():
