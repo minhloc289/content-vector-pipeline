@@ -4,6 +4,10 @@ import hashlib
 from datetime import datetime
 from .fetcher import fetch_articles
 from .converter import convert_article_to_markdown
+from ..config import setup_logging
+
+# Configure logging for the scraper module
+logger = setup_logging()
 
 def calculate_content_hash(content):
     """
@@ -26,9 +30,17 @@ def load_tracked_metadata():
     """
     metadata_path = "articles_metadata.json"
     if os.path.exists(metadata_path):
-        with open(metadata_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+        try:
+            with open(metadata_path, "r", encoding="utf-8") as f:
+                metadata = json.load(f)
+                logger.info(f"[Scraper] Loaded existing metadata for {len(metadata)} articles")
+                return metadata
+        except Exception as e:
+            logger.error(f"[Scraper] Failed to load metadata file: {e}")
+            return {}
+    else:
+        logger.info("[Scraper] No existing metadata file found, starting fresh")
+        return {}
 
 def save_tracked_metadata(tracked_metadata):
     """
@@ -38,8 +50,12 @@ def save_tracked_metadata(tracked_metadata):
         tracked_metadata (dict): Dictionary of article_id -> metadata.
     """
     metadata_path = "articles_metadata.json"
-    with open(metadata_path, "w", encoding="utf-8") as f:
-        json.dump(tracked_metadata, f, indent=4)
+    try:
+        with open(metadata_path, "w", encoding="utf-8") as f:
+            json.dump(tracked_metadata, f, indent=4)
+        logger.debug(f"[Scraper] Metadata saved successfully")
+    except Exception as e:
+        logger.error(f"[Scraper] Failed to save metadata: {e}")
 
 def save_article_as_markdown(article, tracked_metadata):
     """
@@ -58,7 +74,7 @@ def save_article_as_markdown(article, tracked_metadata):
     """
     article_id = article.get('id')
     if article_id is None:
-        print("Article has no id, skipping.")
+        logger.warning("[Scraper] Article missing ID, skipping")
         return False, 'skipped', None
 
     try:
@@ -67,18 +83,17 @@ def save_article_as_markdown(article, tracked_metadata):
         content_hash = calculate_content_hash(content)
         article_id_str = str(article_id)
         last_modified = article.get('updated_at', datetime.utcnow().isoformat())
+        title = article.get('title', 'No Title')
 
         # Check if article is new or updated
         status = 'skipped'
         if article_id_str not in tracked_metadata:
-            print(f"New article detected: {article_id}")
             status = 'new'
         elif tracked_metadata[article_id_str]['content_hash'] != content_hash:
-            print(f"Updated article detected: {article_id}")
             status = 'updated'
 
         if status == 'skipped':
-            print(f"No changes for article {article_id}, skipping.")
+            logger.debug(f"[Scraper] Article {article_id} unchanged, skipping")
             return False, status, None
 
         # Create article subdirectory
@@ -94,7 +109,7 @@ def save_article_as_markdown(article, tracked_metadata):
         # Save metadata JSON file
         metadata = {
             'id': article_id,
-            'title': article.get('title', 'No Title'),
+            'title': title,
             'html_url': article.get('html_url', ''),
             'content_hash': content_hash,
             'last_modified': last_modified
@@ -108,11 +123,12 @@ def save_article_as_markdown(article, tracked_metadata):
             'content_hash': content_hash,
             'last_modified': last_modified
         }
-        print(f"Saved article {article_id} to {article_dir}")
+        
+        logger.info(f"[Scraper] {status.capitalize()} article saved - ID: {article_id}, Title: '{title}'")
         return True, status, article_id_str
 
     except Exception as e:
-        print(f"Failed to save article {article_id}: {e}")
+        logger.error(f"[Scraper] Failed to save article {article_id}: {e}")
         return False, 'skipped', None
 
 def main():
@@ -125,6 +141,9 @@ def main():
     Returns:
         dict: Dictionary with 'newArticles' (set of new article IDs) and 'updatedArticles' (set of updated article IDs).
     """
+    start_time = datetime.now()
+    logger.info(f"[Scraper] Starting scraping process at {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    
     try:
         # Ensure articles directory exists
         articles_dir = "articles"
@@ -132,15 +151,19 @@ def main():
 
         # Load tracked metadata
         tracked_metadata = load_tracked_metadata()
-        print(f"Loaded metadata for {len(tracked_metadata)} articles")
 
         # Fetch articles
-        articles = fetch_articles(limit=10, per_page=10)
-        new_count = 0
-        updated_count = 0
-        categorized_articles = {"new_articles": set(), "updated_articles": set()}
+        logger.info("[Scraper] Fetching articles from API...")
+        articles = fetch_articles(limit=5, per_page=1)
+        logger.info(f"[Scraper] Retrieved {len(articles)} articles from API")
 
         # Process articles
+        new_count = 0
+        updated_count = 0
+        skipped_count = 0
+        categorized_articles = {"new_articles": set(), "updated_articles": set()}
+
+        logger.info("[Scraper] Processing articles...")
         for article in articles:
             saved, status, article_id = save_article_as_markdown(article, tracked_metadata)
             if saved:
@@ -150,21 +173,31 @@ def main():
                 elif status == 'updated':
                     updated_count += 1
                     categorized_articles["updated_articles"].add(article_id)
+            else:
+                skipped_count += 1
 
         # Save updated tracked metadata
         save_tracked_metadata(tracked_metadata)
-        print(f"Processed {len(articles)} articles, saved {new_count} new and {updated_count} updated articles")
-        if categorized_articles["new_articles"] or categorized_articles["updated_articles"]:
-            print(
-                f"New or updated article IDs:\n"
-                f"  new_articles: {{{', '.join(categorized_articles['new_articles'])}}}\n"
-                f"  updated_articles: {{{', '.join(categorized_articles['updated_articles'])}}}"
-            )
+        
+        # Calculate execution time
+        end_time = datetime.now()
+        execution_time = end_time - start_time
+        
+        # Log summary
+        logger.info(f"[Scraper] Processing completed at {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info(f"[Scraper] Execution time: {execution_time.total_seconds():.2f} seconds")
+        logger.info(f"[Scraper] Summary: {len(articles)} total articles processed")
+        logger.info(f"[Scraper] Results: {new_count} new, {updated_count} updated, {skipped_count} skipped")
+        
+        if new_count > 0 or updated_count > 0:
+            logger.info(f"[Scraper] Successfully processed {new_count + updated_count} articles")
         else:
-            print("No new or updated articles")
+            logger.info("[Scraper] No new or updated articles found")
 
         return categorized_articles
 
     except Exception as e:
-        print(f"Failed to complete the scraping process: {e}")
+        end_time = datetime.now()
+        execution_time = end_time - start_time
+        logger.error(f"[Scraper] Process failed after {execution_time.total_seconds():.2f} seconds: {e}")
         return {"new_articles": set(), "updated_articles": set()}

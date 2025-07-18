@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup, Comment
 from markdownify import markdownify as md
+from ..config import setup_logging
 
+# Configure logging for the scraper module
+logger = setup_logging()
 
 def clean_html(html):
     """
@@ -39,7 +42,7 @@ def clean_html(html):
         return str(soup)
 
     except Exception as e:
-        print(f"Failed to clean HTML: {e}")
+        logger.error(f"[Converter] HTML cleaning failed: {e}")
         return html  # Return original HTML if cleaning fails
 
 def convert_article_to_markdown(article):
@@ -59,8 +62,9 @@ def convert_article_to_markdown(article):
         title = article.get('title', 'No Title')
         body = article.get('body', '')
         html_url = article.get('html_url', '')
+        article_id = article.get('id', 'unknown')
 
-        print(f"Converting article to Markdown: {title}")
+        logger.debug(f"[Converter] Converting article ID {article_id}: '{title}'")
 
         # Step 1: Clean the HTML directly, no need decode
         cleaned_html = clean_html(body)
@@ -83,9 +87,11 @@ def convert_article_to_markdown(article):
         markdown += f"[View Original Article]({html_url})\n\n"
         markdown += markdown_content
 
-        print(f"Successfully converted article: {title}")
+        logger.info(f"[Converter] Successfully converted article ID {article_id}: '{title}'")
         return markdown
     
     except Exception as e:
-        print(f"Failed to convert article to Markdown: {e}")
-        return f"# {article.get('title', 'No Title')}\n\nConversion failed: {str(e)}"
+        article_id = article.get('id', 'unknown')
+        title = article.get('title', 'No Title')
+        logger.error(f"[Converter] Failed to convert article {article_id} ('{title}'): {e}")
+        return f"# {title}\n\nConversion failed: {str(e)}"
