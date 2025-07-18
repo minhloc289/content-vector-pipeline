@@ -61,7 +61,7 @@ def main():
                 print(f"Recreated {articles_dir}")
 
         # Fetch and save articles
-        articles = fetch_articles(limit=50)
+        articles = fetch_articles(limit=50, per_page=10)
         for article in articles:
             save_article_as_markdown(article)
         print(f"Saved {len(articles)} articles to ./articles directory")

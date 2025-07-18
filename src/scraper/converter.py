@@ -1,11 +1,10 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 from markdownify import markdownify as md
+
 
 def clean_html(html):
     """
-    Clean HTML by removing unwanted elements.
-
-    This function removes navigation, ads, aside, footer, and breadcrumb elements from the HTML.
+    Clean HTML by removing unwanted elements while preserving content structure.
 
     Args:
         html (str): The HTML content to clean.
@@ -15,9 +14,30 @@ def clean_html(html):
     """
     try:
         soup = BeautifulSoup(html, 'html.parser')
-        for tag in soup.select('nav, aside, footer, .nav, .ads, .advertisement, .breadcrumb'):
-            tag.decompose()
+
+        # Remove comments
+        for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
+            comment.extract()
+
+        # Remove unwanted elements (simplified approach)
+        unwanted_selectors = [
+            'nav', 'aside', 'footer', 'header',
+            '.nav', '.navigation', '.ads', '.advertisement',
+            '.breadcrumb', '.sidebar', '.social', '.share',
+            'script', 'style', 'noscript'
+        ]
+
+        for selector in unwanted_selectors:
+            for element in soup.select(selector):
+                element.decompose()
+
+        # Remove empty paragraphs and divs
+        for tag in soup.find_all(['p', 'div']):
+            if not tag.get_text().strip():
+                tag.decompose()
+
         return str(soup)
+
     except Exception as e:
         print(f"Failed to clean HTML: {e}")
         return html  # Return original HTML if cleaning fails
@@ -39,13 +59,33 @@ def convert_article_to_markdown(article):
         title = article.get('title', 'No Title')
         body = article.get('body', '')
         html_url = article.get('html_url', '')
+
+        print(f"Converting article to Markdown: {title}")
+
+        # Step 1: Clean the HTML directly, no need decode
         cleaned_html = clean_html(body)
-        markdown_content = md(cleaned_html, strip=['a'])
+
+        # Step 2: Convert to Markdown with preserved elements
+        markdown_content = md(
+            cleaned_html,
+            heading_style='ATX',
+            bullets='-',
+            convert=['a', 'b', 'strong', 'i', 'em', 'code', 'pre',
+                     'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+                     'p', 'br', 'ul', 'ol', 'li', 'blockquote']
+        )
+
+        # Clean up the markdown formatting
         markdown_content = markdown_content.strip()
+
+        # Format the final markdown with title and source link
         markdown = f"# {title}\n\n"
         markdown += f"[View Original Article]({html_url})\n\n"
         markdown += markdown_content
+
+        print(f"Successfully converted article: {title}")
         return markdown
+    
     except Exception as e:
         print(f"Failed to convert article to Markdown: {e}")
-        return ""  # Return empty string if conversion fails
+        return f"# {article.get('title', 'No Title')}\n\nConversion failed: {str(e)}"
