@@ -6,6 +6,7 @@ from ..config import (
     OPENAI_API_KEY,
     MAX_CHUNK_SIZE_TOKENS,
     CHUNK_OVERLAP_TOKENS,
+    VECTOR_STORE_NAME,
     setup_logging
 )
 
@@ -14,7 +15,7 @@ logger = setup_logging()
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-def get_vector_store_by_name(name="OptiBotVectorStore") -> str | None:
+def get_vector_store_by_name(name) -> str | None:
     """
     Retrieve the ID of a vector store by its name.
 
@@ -43,7 +44,7 @@ def get_vector_store_by_name(name="OptiBotVectorStore") -> str | None:
         logger.error(f"[VectorStore] Failed to retrieve vector store '{name}': {e}")
         raise RuntimeError(f"Error retrieving vector store by name '{name}': {e}")
 
-def create_vector_store(name="OptiBotVectorStore") -> str:
+def create_vector_store(name) -> str:
     """
     Create a new vector store with the given name and return its ID.
 
@@ -66,7 +67,7 @@ def create_vector_store(name="OptiBotVectorStore") -> str:
         logger.error(f"[VectorStore] Failed to create vector store '{name}': {e}")
         raise RuntimeError(f"Error creating vector store: {e}")
 
-def ensure_vector_store_exists(name="OptiBotVectorStore") -> str:
+def ensure_vector_store_exists(name=VECTOR_STORE_NAME) -> str:
     """
     Ensure a vector store exists. If it exists, return its ID; if not, create it and return the new ID.
 

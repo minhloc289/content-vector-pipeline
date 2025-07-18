@@ -1,6 +1,7 @@
 import os
 import json
 import hashlib
+import re
 from datetime import datetime
 from .fetcher import fetch_articles
 from .converter import convert_article_to_markdown
@@ -85,6 +86,11 @@ def save_article_as_markdown(article, tracked_metadata):
         last_modified = article.get('updated_at', datetime.utcnow().isoformat())
         title = article.get('title', 'No Title')
 
+        # Clean title by replacing punctuation with dashes
+        clean_title = re.sub(r'[^\w\s-]', '-', title)  # Replace non-word characters (except spaces and dashes) with -
+        clean_title = re.sub(r'\s+', '-', clean_title)  # Replace spaces with -
+        clean_title = clean_title.strip('-')  # Remove leading/trailing dashes
+
         # Check if article is new or updated
         status = 'skipped'
         if article_id_str not in tracked_metadata:
@@ -100,9 +106,9 @@ def save_article_as_markdown(article, tracked_metadata):
         article_dir = os.path.join("articles", article_id_str)
         os.makedirs(article_dir, exist_ok=True)
 
-        # Save Markdown file
+        # Save Markdown file with cleaned title
         markdown_content = convert_article_to_markdown(article)
-        markdown_path = os.path.join(article_dir, f"{article_id_str}.md")
+        markdown_path = os.path.join(article_dir, f"{clean_title}.md")
         with open(markdown_path, "w", encoding="utf-8") as f:
             f.write(markdown_content)
 
@@ -133,13 +139,13 @@ def save_article_as_markdown(article, tracked_metadata):
 
 def main():
     """
-    Fetch articles, save new or updated ones as Markdown files, and return IDs of affected articles.
+    Fetch all articles, save new or updated ones as Markdown files, and return IDs of affected articles.
 
-    This function loads existing metadata, fetches articles, saves only new or updated
+    This function loads existing metadata, fetches all articles, saves only new or updated
     articles, reports the number of new and updated articles, and returns their IDs as an object.
 
     Returns:
-        dict: Dictionary with 'newArticles' (set of new article IDs) and 'updatedArticles' (set of updated article IDs).
+        dict: Dictionary with 'new_articles' (set of new article IDs) and 'updated_articles' (set of updated article IDs).
     """
     start_time = datetime.now()
     logger.info(f"[Scraper] Starting scraping process at {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -154,7 +160,7 @@ def main():
 
         # Fetch articles
         logger.info("[Scraper] Fetching articles from API...")
-        articles = fetch_articles(limit=5, per_page=1)
+        articles = fetch_articles(per_page=10)
         logger.info(f"[Scraper] Retrieved {len(articles)} articles from API")
 
         # Process articles

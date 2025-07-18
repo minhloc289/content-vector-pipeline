@@ -84,7 +84,7 @@ def convert_article_to_markdown(article):
 
         # Format the final markdown with title and source link
         markdown = f"# {title}\n\n"
-        markdown += f"[View Original Article]({html_url})\n\n"
+        markdown += f"[Article URL]({html_url})\n\n"
         markdown += markdown_content
 
         logger.info(f"[Converter] Successfully converted article ID {article_id}: '{title}'")
