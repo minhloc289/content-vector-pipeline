@@ -163,7 +163,7 @@ def main():
 
         # Fetch articles
         logger.info("[Scraper] Fetching articles from API...")
-        articles = fetch_articles(per_page=10)
+        articles = fetch_articles(per_page=40)
         logger.info(f"[Scraper] Retrieved {len(articles)} articles from API")
 
         # Process articles
