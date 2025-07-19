@@ -1,0 +1,16 @@
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore local environment and secrets
+.env
+.env.sample
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore generated/output directories
+articles/
+screenshots/
+articles_metadata.json
