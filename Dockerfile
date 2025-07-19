@@ -23,4 +23,4 @@ RUN chmod 0644 /etc/cron.d/app-cron && crontab /etc/cron.d/app-cron
 RUN touch /var/log/cron.log
 
 # Run cron in the background and tail the log to stdout
-CMD ["sh", "-c", "cron -f & tail -f /var/log/cron.log"]
+CMD ["sh", "-c", "printenv > /etc/environment && cron && tail -f /var/log/cron.log"]
