@@ -10,27 +10,29 @@ BASE_URL = "https://support.optisigns.com/api/v2/help_center/en-us/articles.json
 BATCH_SIZE = 10
 MAX_CHUNK_SIZE_TOKENS = 600
 CHUNK_OVERLAP_TOKENS = 200
-VECTOR_STORE_NAME = "optibot_vector_store_v1"
+VECTOR_STORE_NAME = "optibot_vector_store_v2"
 TIME_SLEEP_IN_SECONDS = 5
 
-# Set up logging 
+# Module-level variable to store the logger instance
+_logger = None
+
 def setup_logging():
-    # Configure logging for the application
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(message)s'
-    )
+    global _logger
+    if _logger is None:
+        # Create logger for the application
+        _logger = logging.getLogger("OptiBot")
+        _logger.setLevel(logging.DEBUG)
 
-    # Suppress specific loggers if needed
-    logging.getLogger("requests").setLevel(logging.WARNING)
-    logging.getLogger("urllib3").setLevel(logging.WARNING)
-    logging.getLogger("markdownify").setLevel(logging.WARNING)
-    logging.getLogger("openai").setLevel(logging.WARNING)
-    logging.getLogger("openai._base_client").setLevel(logging.WARNING)
-    logging.getLogger("httpx").setLevel(logging.WARNING)
+        # Create a handler
+        handler = logging.StreamHandler()
+        handler.setLevel(logging.DEBUG)
 
-    
-    # Create logger for the application
-    logger = logging.getLogger("OptiBot")
+        # Create a formatter
+        formatter = logging.Formatter('%(message)s')
+        handler.setFormatter(formatter)
 
-    return logger
+        # Add the handler to the logger
+        _logger.addHandler(handler)
+        _logger.propagate = False  # Prevent propagation to root logger
+
+    return _logger
