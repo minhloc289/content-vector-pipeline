@@ -263,8 +263,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows,macos,virtualenv
-Beta
-0 / 0
-used queries
-1
+# Application specific 
+articles/**/*.md
+articles/**/*.json
+!articles/.gitkeep
+articles_metadata.json
