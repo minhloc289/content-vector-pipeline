@@ -2,12 +2,12 @@ import logging
 from datetime import datetime
 from .vector_store import ensure_vector_store_exists, upload_files_to_vector_store_batch
 from .file_handlers import validate_article_file_paths 
-from ..config import BATCH_SIZE, setup_logging
+from ..config import BATCH_SIZE, VECTOR_STORE_NAME, setup_logging
 
 # Configure logging for the upload module
 logger = setup_logging()
 
-def upload_delta_articles_in_batches(categorized_articles, batch_size=BATCH_SIZE):
+def upload_delta_articles_in_batches(categorized_articles, tracked_metadata, batch_size=BATCH_SIZE):
     """
     Upload new or updated articles to the vector store in batches based on categorized_articles.
 
@@ -16,6 +16,7 @@ def upload_delta_articles_in_batches(categorized_articles, batch_size=BATCH_SIZE
 
     Args:
         categorized_articles (dict): Dictionary with 'new_articles' and 'updated_articles' sets of article IDs.
+        tracked_metadata (dict): Dictionary containing article_id -> metadata with 'title'.
         batch_size (int): Number of files to upload per batch. Defaults to 10.
     """
     start_time = datetime.now()
@@ -35,11 +36,11 @@ def upload_delta_articles_in_batches(categorized_articles, batch_size=BATCH_SIZE
     try:
         # Ensure vector store exists
         logger.info("[Upload] Ensuring vector store exists...")
-        vector_store_id = ensure_vector_store_exists(name="OptiBotVectorStore")
+        vector_store_id = ensure_vector_store_exists(name=VECTOR_STORE_NAME)
         
         # Validate article file paths
         logger.info("[Upload] Validating article file paths...")
-        valid_paths, missing_paths = validate_article_file_paths(categorized_articles)
+        valid_paths, missing_paths = validate_article_file_paths(categorized_articles, tracked_metadata)
 
         if missing_paths:
             logger.error(f"[Upload] {len(missing_paths)} article files are missing, upload cannot proceed")

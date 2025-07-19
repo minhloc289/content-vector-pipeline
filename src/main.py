@@ -9,12 +9,12 @@ def main():
     # Execute scraping to get delta articles
     # print("Starting article scraping...")
     logger.info("================ Starting article scraping ===============")
-    articles = scrape_main()
+    articles, tracked_metadata = scrape_main()
     logger.info("================ Finished article scraping ===============\n")
 
     # Upload the delta articles
     logger.info("================ Starting article upload ================")
-    upload_delta_articles_in_batches(articles)
+    upload_delta_articles_in_batches(articles, tracked_metadata)
     logger.info("================ Finished article upload ================\n")
 
 if __name__ == "__main__":

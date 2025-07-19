@@ -87,7 +87,7 @@ def save_article_as_markdown(article, tracked_metadata):
         title = article.get('title', 'No Title')
 
         # Clean title by replacing punctuation with dashes
-        clean_title = re.sub(r'[^\w\s-]', '-', title)  # Replace non-word characters (except spaces and dashes) with -
+        clean_title = re.sub(r'[^\w\s-]', '-', title)  # Replace non-word characters with -
         clean_title = re.sub(r'\s+', '-', clean_title)  # Replace spaces with -
         clean_title = clean_title.strip('-')  # Remove leading/trailing dashes
 
@@ -126,6 +126,7 @@ def save_article_as_markdown(article, tracked_metadata):
 
         # Update tracked metadata
         tracked_metadata[article_id_str] = {
+            'clean_title': clean_title,
             'content_hash': content_hash,
             'last_modified': last_modified
         }
@@ -145,7 +146,9 @@ def main():
     articles, reports the number of new and updated articles, and returns their IDs as an object.
 
     Returns:
-        dict: Dictionary with 'new_articles' (set of new article IDs) and 'updated_articles' (set of updated article IDs).
+        tuple: (categorized_articles, tracked_metadata) where categorized_articles is a dict with
+               'new_articles' (set of new article IDs) and 'updated_articles' (set of updated article IDs),
+               and tracked_metadata is the updated metadata dictionary.
     """
     start_time = datetime.now()
     logger.info(f"[Scraper] Starting scraping process at {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -200,10 +203,10 @@ def main():
         else:
             logger.info("[Scraper] No new or updated articles found")
 
-        return categorized_articles
+        return categorized_articles, tracked_metadata
 
     except Exception as e:
         end_time = datetime.now()
         execution_time = end_time - start_time
         logger.error(f"[Scraper] Process failed after {execution_time.total_seconds():.2f} seconds: {e}")
-        return {"new_articles": set(), "updated_articles": set()}
+        return {"new_articles": set(), "updated_articles": set()}, {}

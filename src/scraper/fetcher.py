@@ -6,7 +6,7 @@ from ..config import BASE_URL, setup_logging, TIME_SLEEP_IN_SECONDS
 # Configure logging for the fetcher module
 logger = setup_logging()
 
-def fetch_articles(per_page=10):
+def fetch_articles(per_page=40):
     """
     Fetch all articles from the OptiSigns support API.
 
@@ -47,10 +47,9 @@ def fetch_articles(per_page=10):
             article_count += len(page_articles)
             logger.debug(f"[Fetcher] Page {page_count}: Retrieved {len(page_articles)} articles, Total: {article_count}")
 
-            # Sleep for 2 seconds after every 20 articles
-            if article_count >= 20 and article_count % 20 == 0:
-                logger.debug(f"[Fetcher] Processed {article_count} articles, sleeping for 2 seconds")
-                time.sleep(TIME_SLEEP_IN_SECONDS)
+            # Sleep after fetching articles 
+            logger.debug(f"[Fetcher] Processed {article_count} articles, sleeping for {TIME_SLEEP_IN_SECONDS} seconds")
+            time.sleep(TIME_SLEEP_IN_SECONDS)
 
             # Get the next page URL
             url = data.get('next_page')

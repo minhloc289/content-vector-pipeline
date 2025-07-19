@@ -1,27 +1,36 @@
 import os
+import re
 from ..config import setup_logging
 
 # Configure logging for the file handlers module
 logger = setup_logging()
 
-def get_article_file_path(article_id: str) -> str:
+def get_article_file_path(article_id: str, tracked_metadata):
     """
-    Get the file path for a given article ID.
+    Get the file path for a given article ID based on its title.
 
     Args:
         article_id (str): The ID of the article.
+        tracked_metadata (dict): Dictionary containing article_id -> metadata with 'title'.
 
     Returns:
         str: The file path to the article's Markdown file.
     """
-    return os.path.join("articles", article_id, f"{article_id}.md")
+    if article_id not in tracked_metadata:
+        logger.warning(f"[FileHandlers] No metadata found for article ID {article_id}")
+        return ""
+    
+    clean_title = tracked_metadata[article_id].get('clean_title', 'No-Title')
+    
+    return os.path.join("articles", article_id, f"{clean_title}.md")
 
-def validate_article_file_paths(categorized_articles):
+def validate_article_file_paths(categorized_articles, tracked_metadata):
     """
     Validate Markdown file paths for new and updated articles.
 
     Args:
         categorized_articles (dict): Dict with 'new_articles' and 'updated_articles' sets.
+        tracked_metadata (dict): Dictionary containing article_id -> metadata with 'title'.
 
     Returns:
         tuple: (valid_paths, missing_paths) lists of existing and non-existent files.
@@ -38,7 +47,7 @@ def validate_article_file_paths(categorized_articles):
 
     # Construct and validate Markdown file paths
     file_paths = [
-        get_article_file_path(article_id)
+        get_article_file_path(article_id, tracked_metadata)
         for article_id in all_article_ids
     ]
     

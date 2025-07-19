@@ -20,7 +20,7 @@ def get_vector_store_by_name(name) -> str | None:
     Retrieve the ID of a vector store by its name.
 
     Args:
-        name (str): The name of the vector store to look for. Defaults to "OptiBotVectorStore".
+        name (str): The name of the vector store to look for. 
 
     Returns:
         str | None: The ID of the existing vector store if found, otherwise None.
@@ -49,7 +49,7 @@ def create_vector_store(name) -> str:
     Create a new vector store with the given name and return its ID.
 
     Args:
-        name (str): The name to assign to the new vector store. Defaults to "OptiBotVectorStore".
+        name (str): The name to assign to the new vector store. 
 
     Returns:
         str: The ID of the newly created vector store.
@@ -72,7 +72,7 @@ def ensure_vector_store_exists(name=VECTOR_STORE_NAME) -> str:
     Ensure a vector store exists. If it exists, return its ID; if not, create it and return the new ID.
 
     Args:
-        name (str): The name of the vector store to check or create. Defaults to "OptiBotVectorStore".
+        name (str): The name of the vector store to check or create.
 
     Returns:
         str: The ID of the existing or newly created vector store.
