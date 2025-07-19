@@ -1,0 +1,2150 @@
+----- START: Script execution at Sat Jul 19 07:00:01 UTC 2025 -----
+================ Starting article scraping ===============
+[Scraper] Starting scraping process at 2025-07-19 07:00:03
+[Scraper] No existing metadata file found, starting fresh
+[Scraper] Fetching articles from API...
+[Fetcher] Starting article fetch at 2025-07-19 07:00:03
+[Fetcher] Fetching articles, 40 per page
+[Fetcher] Requesting page 1
+[Fetcher] Page 1: Retrieved 40 articles, Total: 40
+[Fetcher] Processed 40 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 2
+[Fetcher] Page 2: Retrieved 40 articles, Total: 80
+[Fetcher] Processed 80 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 3
+[Fetcher] Page 3: Retrieved 40 articles, Total: 120
+[Fetcher] Processed 120 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 4
+[Fetcher] Page 4: Retrieved 40 articles, Total: 160
+[Fetcher] Processed 160 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 5
+[Fetcher] Page 5: Retrieved 40 articles, Total: 200
+[Fetcher] Processed 200 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 6
+[Fetcher] Page 6: Retrieved 40 articles, Total: 240
+[Fetcher] Processed 240 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 7
+[Fetcher] Page 7: Retrieved 40 articles, Total: 280
+[Fetcher] Processed 280 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 8
+[Fetcher] Page 8: Retrieved 40 articles, Total: 320
+[Fetcher] Processed 320 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 9
+[Fetcher] Page 9: Retrieved 40 articles, Total: 360
+[Fetcher] Processed 360 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 10
+[Fetcher] Page 10: Retrieved 34 articles, Total: 394
+[Fetcher] Processed 394 articles, sleeping for 5 seconds
+[Fetcher] No more pages available
+[Fetcher] Fetch completed at 2025-07-19 07:01:02
+[Fetcher] Execution time: 59.33 seconds
+[Fetcher] Results: 394 articles retrieved from 10 pages
+[Scraper] Retrieved 394 articles from API
+[Scraper] Processing articles...
+[Converter] Converting article ID 42915219118739: 'Legacy DataSources'
+[Converter] Successfully converted article ID 42915219118739: 'Legacy DataSources'
+[Scraper] New article saved - ID: 42915219118739, Title: 'Legacy DataSources'
+[Converter] Converting article ID 42087942047379: 'Getting Started with Designer'
+[Converter] Successfully converted article ID 42087942047379: 'Getting Started with Designer'
+[Scraper] New article saved - ID: 42087942047379, Title: 'Getting Started with Designer'
+[Converter] Converting article ID 41432385864595: 'Designer 2.0 New Features'
+[Converter] Successfully converted article ID 41432385864595: 'Designer 2.0 New Features'
+[Scraper] New article saved - ID: 41432385864595, Title: 'Designer 2.0 New Features'
+[Converter] Converting article ID 40736654972563: 'OptiSigns Pro/ProMax Player Troubleshooting Guide'
+[Converter] Successfully converted article ID 40736654972563: 'OptiSigns Pro/ProMax Player Troubleshooting Guide'
+[Scraper] New article saved - ID: 40736654972563, Title: 'OptiSigns Pro/ProMax Player Troubleshooting Guide'
+[Converter] Converting article ID 40671590645651: 'How to Play Licensed Background Music on Digital Signs with OptiSound'
+[Converter] Successfully converted article ID 40671590645651: 'How to Play Licensed Background Music on Digital Signs with OptiSound'
+[Scraper] New article saved - ID: 40671590645651, Title: 'How to Play Licensed Background Music on Digital Signs with OptiSound'
+[Converter] Converting article ID 40212027797523: 'Disk Encryption'
+[Converter] Successfully converted article ID 40212027797523: 'Disk Encryption'
+[Scraper] New article saved - ID: 40212027797523, Title: 'Disk Encryption'
+[Converter] Converting article ID 40147900639891: 'OptiSigns Android Player Troubleshooting Guide'
+[Converter] Successfully converted article ID 40147900639891: 'OptiSigns Android Player Troubleshooting Guide'
+[Scraper] New article saved - ID: 40147900639891, Title: 'OptiSigns Android Player Troubleshooting Guide'
+[Converter] Converting article ID 39488874989587: 'Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick'
+[Converter] Successfully converted article ID 39488874989587: 'Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick'
+[Scraper] New article saved - ID: 39488874989587, Title: 'Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick'
+[Converter] Converting article ID 39250660729747: 'How to Use the Tableau App'
+[Converter] Successfully converted article ID 39250660729747: 'How to Use the Tableau App'
+[Scraper] New article saved - ID: 39250660729747, Title: 'How to Use the Tableau App'
+[Converter] Converting article ID 39080869746067: 'Handle OAuth Authentication using API Gateway Pre-request Configuration'
+[Converter] Successfully converted article ID 39080869746067: 'Handle OAuth Authentication using API Gateway Pre-request Configuration'
+[Scraper] New article saved - ID: 39080869746067, Title: 'Handle OAuth Authentication using API Gateway Pre-request Configuration'
+[Converter] Converting article ID 38680194603155: 'OptiSigns ProMax Player'
+[Converter] Successfully converted article ID 38680194603155: 'OptiSigns ProMax Player'
+[Scraper] New article saved - ID: 38680194603155, Title: 'OptiSigns ProMax Player'
+[Converter] Converting article ID 38062664690195: 'Tagging in OptiSigns'
+[Converter] Successfully converted article ID 38062664690195: 'Tagging in OptiSigns'
+[Scraper] New article saved - ID: 38062664690195, Title: 'Tagging in OptiSigns'
+[Converter] Converting article ID 37966066335891: 'Getting Started with an OptiSigns Free Trial'
+[Converter] Successfully converted article ID 37966066335891: 'Getting Started with an OptiSigns Free Trial'
+[Scraper] New article saved - ID: 37966066335891, Title: 'Getting Started with an OptiSigns Free Trial'
+[Converter] Converting article ID 36911639377683: 'How to Use OptiSigns with Microsoft Teams Rooms'
+[Converter] Successfully converted article ID 36911639377683: 'How to Use OptiSigns with Microsoft Teams Rooms'
+[Scraper] New article saved - ID: 36911639377683, Title: 'How to Use OptiSigns with Microsoft Teams Rooms'
+[Converter] Converting article ID 36501302096915: 'How to access the Troubleshooting page of the OptiSigns Player'
+[Converter] Successfully converted article ID 36501302096915: 'How to access the Troubleshooting page of the OptiSigns Player'
+[Scraper] New article saved - ID: 36501302096915, Title: 'How to access the Troubleshooting page of the OptiSigns Player'
+[Converter] Converting article ID 35749502945555: 'How to Using SEPA and iDEAL for EUR Currency Subscription Payments'
+[Converter] Successfully converted article ID 35749502945555: 'How to Using SEPA and iDEAL for EUR Currency Subscription Payments'
+[Scraper] New article saved - ID: 35749502945555, Title: 'How to Using SEPA and iDEAL for EUR Currency Subscription Payments'
+[Converter] Converting article ID 35577511423635: 'OptiSigns Pro Player Advanced Features'
+[Converter] Successfully converted article ID 35577511423635: 'OptiSigns Pro Player Advanced Features'
+[Scraper] New article saved - ID: 35577511423635, Title: 'OptiSigns Pro Player Advanced Features'
+[Converter] Converting article ID 35337746613139: 'How to Create Custom News Feeds with  OptiSync'
+[Converter] Successfully converted article ID 35337746613139: 'How to Create Custom News Feeds with  OptiSync'
+[Scraper] New article saved - ID: 35337746613139, Title: 'How to Create Custom News Feeds with  OptiSync'
+[Converter] Converting article ID 35184720136595: 'How to Install a Root Certificate and Display an Internal Website on Screens'
+[Converter] Successfully converted article ID 35184720136595: 'How to Install a Root Certificate and Display an Internal Website on Screens'
+[Scraper] New article saved - ID: 35184720136595, Title: 'How to Install a Root Certificate and Display an Internal Website on Screens'
+[Converter] Converting article ID 34379983350163: 'Accepted Payment Methods'
+[Converter] Successfully converted article ID 34379983350163: 'Accepted Payment Methods'
+[Scraper] New article saved - ID: 34379983350163, Title: 'Accepted Payment Methods'
+[Converter] Converting article ID 33940834613139: 'What Do I Get With an OptiSigns Free Plan?'
+[Converter] Successfully converted article ID 33940834613139: 'What Do I Get With an OptiSigns Free Plan?'
+[Scraper] New article saved - ID: 33940834613139, Title: 'What Do I Get With an OptiSigns Free Plan?'
+[Converter] Converting article ID 33468569218067: 'How to Display Dynamic Event Schedules Using OptiSync'
+[Converter] Successfully converted article ID 33468569218067: 'How to Display Dynamic Event Schedules Using OptiSync'
+[Scraper] New article saved - ID: 33468569218067, Title: 'How to Display Dynamic Event Schedules Using OptiSync'
+[Converter] Converting article ID 33382537925267: 'Making a Video Wall with OptiSigns (Video Wall App)'
+[Converter] Successfully converted article ID 33382537925267: 'Making a Video Wall with OptiSigns (Video Wall App)'
+[Scraper] New article saved - ID: 33382537925267, Title: 'Making a Video Wall with OptiSigns (Video Wall App)'
+[Converter] Converting article ID 32860569148819: 'How to Set Up a PowerBI Service Principal for Use in OptiSigns'
+[Converter] Successfully converted article ID 32860569148819: 'How to Set Up a PowerBI Service Principal for Use in OptiSigns'
+[Scraper] New article saved - ID: 32860569148819, Title: 'How to Set Up a PowerBI Service Principal for Use in OptiSigns'
+[Converter] Converting article ID 32839794222099: 'Display Salesforce Dashboards with MFA using Web Scripting'
+[Converter] Successfully converted article ID 32839794222099: 'Display Salesforce Dashboards with MFA using Web Scripting'
+[Scraper] New article saved - ID: 32839794222099, Title: 'Display Salesforce Dashboards with MFA using Web Scripting'
+[Converter] Converting article ID 31960461758611: 'How to Order a Preconfigured OptiSigns Android Player Device'
+[Converter] Successfully converted article ID 31960461758611: 'How to Order a Preconfigured OptiSigns Android Player Device'
+[Scraper] New article saved - ID: 31960461758611, Title: 'How to Order a Preconfigured OptiSigns Android Player Device'
+[Converter] Converting article ID 31860170199955: 'Integrating Point-of-Sale (POS) Systems to Build Digital Menu Boards with OptiSync'
+[Converter] Successfully converted article ID 31860170199955: 'Integrating Point-of-Sale (POS) Systems to Build Digital Menu Boards with OptiSync'
+[Scraper] New article saved - ID: 31860170199955, Title: 'Integrating Point-of-Sale (POS) Systems to Build Digital Menu Boards with OptiSync'
+[Converter] Converting article ID 31695220475283: 'Configuring Mass Deployment with Jamf Pro MDM on Apple Devices'
+[Converter] Successfully converted article ID 31695220475283: 'Configuring Mass Deployment with Jamf Pro MDM on Apple Devices'
+[Scraper] New article saved - ID: 31695220475283, Title: 'Configuring Mass Deployment with Jamf Pro MDM on Apple Devices'
+[Converter] Converting article ID 31449657955347: 'Getting Started with Touch Screen Kiosks'
+[Converter] Successfully converted article ID 31449657955347: 'Getting Started with Touch Screen Kiosks'
+[Scraper] New article saved - ID: 31449657955347, Title: 'Getting Started with Touch Screen Kiosks'
+[Converter] Converting article ID 31113088917907: 'How to use Toast API data with OptiSigns'
+[Converter] Successfully converted article ID 31113088917907: 'How to use Toast API data with OptiSigns'
+[Scraper] New article saved - ID: 31113088917907, Title: 'How to use Toast API data with OptiSigns'
+[Converter] Converting article ID 30310366838803: 'Enabling Lock Down Mode on Touch Screen Devices'
+[Converter] Successfully converted article ID 30310366838803: 'Enabling Lock Down Mode on Touch Screen Devices'
+[Scraper] New article saved - ID: 30310366838803, Title: 'Enabling Lock Down Mode on Touch Screen Devices'
+[Converter] Converting article ID 30304278652563: 'How to Use the Mobile App for Remote Control'
+[Converter] Successfully converted article ID 30304278652563: 'How to Use the Mobile App for Remote Control'
+[Scraper] New article saved - ID: 30304278652563, Title: 'How to Use the Mobile App for Remote Control'
+[Converter] Converting article ID 30010338528659: 'Remotely Control and Command OptiSigns Devices'
+[Converter] Successfully converted article ID 30010338528659: 'Remotely Control and Command OptiSigns Devices'
+[Scraper] New article saved - ID: 30010338528659, Title: 'Remotely Control and Command OptiSigns Devices'
+[Converter] Converting article ID 29792081890323: 'Guide for Creating Content with OptiSigns'
+[Converter] Successfully converted article ID 29792081890323: 'Guide for Creating Content with OptiSigns'
+[Scraper] New article saved - ID: 29792081890323, Title: 'Guide for Creating Content with OptiSigns'
+[Converter] Converting article ID 29465595849235: 'List of Supported Cities for Weather Wall City Themes'
+[Converter] Successfully converted article ID 29465595849235: 'List of Supported Cities for Weather Wall City Themes'
+[Scraper] New article saved - ID: 29465595849235, Title: 'List of Supported Cities for Weather Wall City Themes'
+[Converter] Converting article ID 29238381023123: 'How to Clear Cache on a BrightSign Player'
+[Converter] Successfully converted article ID 29238381023123: 'How to Clear Cache on a BrightSign Player'
+[Scraper] New article saved - ID: 29238381023123, Title: 'How to Clear Cache on a BrightSign Player'
+[Converter] Converting article ID 29232460955539: 'How to Create an Attract Screen for Your Kiosk'
+[Converter] Successfully converted article ID 29232460955539: 'How to Create an Attract Screen for Your Kiosk'
+[Scraper] New article saved - ID: 29232460955539, Title: 'How to Create an Attract Screen for Your Kiosk'
+[Converter] Converting article ID 29217646663187: 'How to Set Up Dynamic Data Mapping with OptiSync'
+[Converter] Successfully converted article ID 29217646663187: 'How to Set Up Dynamic Data Mapping with OptiSync'
+[Scraper] New article saved - ID: 29217646663187, Title: 'How to Set Up Dynamic Data Mapping with OptiSync'
+[Converter] Converting article ID 28598173096723: 'How To Create and Use Operational Schedules (HDMI-CEC, RS-232)'
+[Converter] Successfully converted article ID 28598173096723: 'How To Create and Use Operational Schedules (HDMI-CEC, RS-232)'
+[Scraper] New article saved - ID: 28598173096723, Title: 'How To Create and Use Operational Schedules (HDMI-CEC, RS-232)'
+[Converter] Converting article ID 28427819992979: 'Performance/Stability issues on Android devices and Best Practices'
+[Converter] Successfully converted article ID 28427819992979: 'Performance/Stability issues on Android devices and Best Practices'
+[Scraper] New article saved - ID: 28427819992979, Title: 'Performance/Stability issues on Android devices and Best Practices'
+[Converter] Converting article ID 28424138317971: 'Samsung Tizen TVs Troubleshooting Guide'
+[Converter] Successfully converted article ID 28424138317971: 'Samsung Tizen TVs Troubleshooting Guide'
+[Scraper] New article saved - ID: 28424138317971, Title: 'Samsung Tizen TVs Troubleshooting Guide'
+[Converter] Converting article ID 28421615261971: 'Roku Troubleshooting guide'
+[Converter] Successfully converted article ID 28421615261971: 'Roku Troubleshooting guide'
+[Scraper] New article saved - ID: 28421615261971, Title: 'Roku Troubleshooting guide'
+[Converter] Converting article ID 28295104605843: 'How to Create & Use Playlists'
+[Converter] Successfully converted article ID 28295104605843: 'How to Create & Use Playlists'
+[Scraper] New article saved - ID: 28295104605843, Title: 'How to Create & Use Playlists'
+[Converter] Converting article ID 28140190892307: 'How to Use QR Overlay App in Engage'
+[Converter] Successfully converted article ID 28140190892307: 'How to Use QR Overlay App in Engage'
+[Scraper] New article saved - ID: 28140190892307, Title: 'How to Use QR Overlay App in Engage'
+[Converter] Converting article ID 28115946505107: 'How to Change Close & Nav Bar Styler Preferences'
+[Converter] Successfully converted article ID 28115946505107: 'How to Change Close & Nav Bar Styler Preferences'
+[Scraper] New article saved - ID: 28115946505107, Title: 'How to Change Close & Nav Bar Styler Preferences'
+[Converter] Converting article ID 27690296225555: 'AI Camera App - Quick Start'
+[Converter] Successfully converted article ID 27690296225555: 'AI Camera App - Quick Start'
+[Scraper] New article saved - ID: 27690296225555, Title: 'AI Camera App - Quick Start'
+[Converter] Converting article ID 27463953562899: 'Amazon TV / FireStick Troubleshooting Guide'
+[Converter] Successfully converted article ID 27463953562899: 'Amazon TV / FireStick Troubleshooting Guide'
+[Scraper] New article saved - ID: 27463953562899, Title: 'Amazon TV / FireStick Troubleshooting Guide'
+[Converter] Converting article ID 27458261258387: 'Move Screens or Devices from One Account to Another'
+[Converter] Successfully converted article ID 27458261258387: 'Move Screens or Devices from One Account to Another'
+[Scraper] New article saved - ID: 27458261258387, Title: 'Move Screens or Devices from One Account to Another'
+[Converter] Converting article ID 27356288211859: 'How to use iCloud Calendar with OptiSigns'
+[Converter] Successfully converted article ID 27356288211859: 'How to use iCloud Calendar with OptiSigns'
+[Scraper] New article saved - ID: 27356288211859, Title: 'How to use iCloud Calendar with OptiSigns'
+[Converter] Converting article ID 27267311796243: 'OptiSigns Android Digital Signage Player'
+[Converter] Successfully converted article ID 27267311796243: 'OptiSigns Android Digital Signage Player'
+[Scraper] New article saved - ID: 27267311796243, Title: 'OptiSigns Android Digital Signage Player'
+[Converter] Converting article ID 25273043501587: 'How to Lockdown iPad/Single App with Guided Accessibility'
+[Converter] Successfully converted article ID 25273043501587: 'How to Lockdown iPad/Single App with Guided Accessibility'
+[Scraper] New article saved - ID: 25273043501587, Title: 'How to Lockdown iPad/Single App with Guided Accessibility'
+[Converter] Converting article ID 25127398699667: 'How to add a QR Code in designs using OptiSigns’ Designer'
+[Converter] Successfully converted article ID 25127398699667: 'How to add a QR Code in designs using OptiSigns’ Designer'
+[Scraper] New article saved - ID: 25127398699667, Title: 'How to add a QR Code in designs using OptiSigns’ Designer'
+[Converter] Converting article ID 24338756617747: 'What Are Feeds and How to Use It'
+[Converter] Successfully converted article ID 24338756617747: 'What Are Feeds and How to Use It'
+[Scraper] New article saved - ID: 24338756617747, Title: 'What Are Feeds and How to Use It'
+[Converter] Converting article ID 23629657318547: 'How to get Google Review link'
+[Converter] Successfully converted article ID 23629657318547: 'How to get Google Review link'
+[Scraper] New article saved - ID: 23629657318547, Title: 'How to get Google Review link'
+[Converter] Converting article ID 23566927217939: 'How to use Check-in app with SMS follow up'
+[Converter] Successfully converted article ID 23566927217939: 'How to use Check-in app with SMS follow up'
+[Scraper] New article saved - ID: 23566927217939, Title: 'How to use Check-in app with SMS follow up'
+[Converter] Converting article ID 23565267463315: 'Engage Plan - FAQs'
+[Converter] Successfully converted article ID 23565267463315: 'Engage Plan - FAQs'
+[Scraper] New article saved - ID: 23565267463315, Title: 'Engage Plan - FAQs'
+[Converter] Converting article ID 23274673797139: 'How to enable auto-start on FireOS 8 devices like Amazon Fire TV Stick 4K Gen 2 (2023 model)'
+[Converter] Successfully converted article ID 23274673797139: 'How to enable auto-start on FireOS 8 devices like Amazon Fire TV Stick 4K Gen 2 (2023 model)'
+[Scraper] New article saved - ID: 23274673797139, Title: 'How to enable auto-start on FireOS 8 devices like Amazon Fire TV Stick 4K Gen 2 (2023 model)'
+[Converter] Converting article ID 23030445716883: 'How to setup AeriCast Meet (Wireless Video Conferencing)'
+[Converter] Successfully converted article ID 23030445716883: 'How to setup AeriCast Meet (Wireless Video Conferencing)'
+[Scraper] New article saved - ID: 23030445716883, Title: 'How to setup AeriCast Meet (Wireless Video Conferencing)'
+[Converter] Converting article ID 22875592994195: 'How to Integrate API and Publish API Data via OptiSync'
+[Converter] Successfully converted article ID 22875592994195: 'How to Integrate API and Publish API Data via OptiSync'
+[Scraper] New article saved - ID: 22875592994195, Title: 'How to Integrate API and Publish API Data via OptiSync'
+[Converter] Converting article ID 22474034993043: 'Advanced Playlist Item Playback Control & Campaign Management'
+[Converter] Successfully converted article ID 22474034993043: 'Advanced Playlist Item Playback Control & Campaign Management'
+[Scraper] New article saved - ID: 22474034993043, Title: 'Advanced Playlist Item Playback Control & Campaign Management'
+[Converter] Converting article ID 21708242980755: 'How to Share Playlist and Folder with External Users'
+[Converter] Successfully converted article ID 21708242980755: 'How to Share Playlist and Folder with External Users'
+[Scraper] New article saved - ID: 21708242980755, Title: 'How to Share Playlist and Folder with External Users'
+[Converter] Converting article ID 20879903340947: 'How to Use Content Tags in The Playlist'
+[Converter] Successfully converted article ID 20879903340947: 'How to Use Content Tags in The Playlist'
+[Scraper] New article saved - ID: 20879903340947, Title: 'How to Use Content Tags in The Playlist'
+[Converter] Converting article ID 20750060900883: 'Your Facebook Page Doesn't Show in The Dropdown List'
+[Converter] Successfully converted article ID 20750060900883: 'Your Facebook Page Doesn't Show in The Dropdown List'
+[Scraper] New article saved - ID: 20750060900883, Title: 'Your Facebook Page Doesn't Show in The Dropdown List'
+[Converter] Converting article ID 20428606424723: 'How to Use Coordinate-Based Positioning and Sizing of Elements in OptiSigns' Designer'
+[Converter] Successfully converted article ID 20428606424723: 'How to Use Coordinate-Based Positioning and Sizing of Elements in OptiSigns' Designer'
+[Scraper] New article saved - ID: 20428606424723, Title: 'How to Use Coordinate-Based Positioning and Sizing of Elements in OptiSigns' Designer'
+[Converter] Converting article ID 20425113117459: 'Navigating Through OptiSigns' Template Library'
+[Converter] Successfully converted article ID 20425113117459: 'Navigating Through OptiSigns' Template Library'
+[Scraper] New article saved - ID: 20425113117459, Title: 'Navigating Through OptiSigns' Template Library'
+[Converter] Converting article ID 20153471319187: 'How to use the External Storage on your device'
+[Converter] Successfully converted article ID 20153471319187: 'How to use the External Storage on your device'
+[Scraper] New article saved - ID: 20153471319187, Title: 'How to use the External Storage on your device'
+[Converter] Converting article ID 20062273670163: 'How to Control and Schedule Playlist Items '
+[Converter] Successfully converted article ID 20062273670163: 'How to Control and Schedule Playlist Items '
+[Scraper] New article saved - ID: 20062273670163, Title: 'How to Control and Schedule Playlist Items '
+[Converter] Converting article ID 19589190970771: 'How to use Secured Dashboard App'
+[Converter] Successfully converted article ID 19589190970771: 'How to use Secured Dashboard App'
+[Scraper] New article saved - ID: 19589190970771, Title: 'How to use Secured Dashboard App'
+[Converter] Converting article ID 19171222981523: 'How to use Yammer app on OptiSigns'
+[Converter] Successfully converted article ID 19171222981523: 'How to use Yammer app on OptiSigns'
+[Scraper] New article saved - ID: 19171222981523, Title: 'How to use Yammer app on OptiSigns'
+[Converter] Converting article ID 19145077187859: 'How to use Web Scripting App with 2FA'
+[Converter] Successfully converted article ID 19145077187859: 'How to use Web Scripting App with 2FA'
+[Scraper] New article saved - ID: 19145077187859, Title: 'How to use Web Scripting App with 2FA'
+[Converter] Converting article ID 18988049363859: 'Push Contents to your Screens'
+[Converter] Successfully converted article ID 18988049363859: 'Push Contents to your Screens'
+[Scraper] New article saved - ID: 18988049363859, Title: 'Push Contents to your Screens'
+[Converter] Converting article ID 18823504383891: 'OptiSigns - Getting Started Guide'
+[Converter] Successfully converted article ID 18823504383891: 'OptiSigns - Getting Started Guide'
+[Scraper] New article saved - ID: 18823504383891, Title: 'OptiSigns - Getting Started Guide'
+[Converter] Converting article ID 18470994953363: 'How to keep OptiSigns running on Fire Stick'
+[Converter] Successfully converted article ID 18470994953363: 'How to keep OptiSigns running on Fire Stick'
+[Scraper] New article saved - ID: 18470994953363, Title: 'How to keep OptiSigns running on Fire Stick'
+[Converter] Converting article ID 18399492388371: 'How to Customize the Thumbnail of Files, Assets, and Folders'
+[Converter] Successfully converted article ID 18399492388371: 'How to Customize the Thumbnail of Files, Assets, and Folders'
+[Scraper] New article saved - ID: 18399492388371, Title: 'How to Customize the Thumbnail of Files, Assets, and Folders'
+[Converter] Converting article ID 18381542133779: 'How to Configure Multi-Factor Authentication with your OptiSigns account.'
+[Converter] Successfully converted article ID 18381542133779: 'How to Configure Multi-Factor Authentication with your OptiSigns account.'
+[Scraper] New article saved - ID: 18381542133779, Title: 'How to Configure Multi-Factor Authentication with your OptiSigns account.'
+[Converter] Converting article ID 17882306279315: 'Samsung Smart Signage Platform (SSSP) Supported Model List'
+[Converter] Successfully converted article ID 17882306279315: 'Samsung Smart Signage Platform (SSSP) Supported Model List'
+[Scraper] New article saved - ID: 17882306279315, Title: 'Samsung Smart Signage Platform (SSSP) Supported Model List'
+[Converter] Converting article ID 17604055961747: 'How to Create a Content Library Kiosk'
+[Converter] Successfully converted article ID 17604055961747: 'How to Create a Content Library Kiosk'
+[Scraper] New article saved - ID: 17604055961747, Title: 'How to Create a Content Library Kiosk'
+[Converter] Converting article ID 17353256033811: 'How to use OptiSigns Auto Provisioning Template on ChromeOS'
+[Converter] Successfully converted article ID 17353256033811: 'How to use OptiSigns Auto Provisioning Template on ChromeOS'
+[Scraper] New article saved - ID: 17353256033811, Title: 'How to use OptiSigns Auto Provisioning Template on ChromeOS'
+[Converter] Converting article ID 17342932920211: 'Event logging and analytics for External Communication(RS-232)'
+[Converter] Successfully converted article ID 17342932920211: 'Event logging and analytics for External Communication(RS-232)'
+[Scraper] New article saved - ID: 17342932920211, Title: 'Event logging and analytics for External Communication(RS-232)'
+[Converter] Converting article ID 17112492659475: 'Display PowerPoint/Google Slides in whole screen when casting from MacBook Pro'
+[Converter] Successfully converted article ID 17112492659475: 'Display PowerPoint/Google Slides in whole screen when casting from MacBook Pro'
+[Scraper] New article saved - ID: 17112492659475, Title: 'Display PowerPoint/Google Slides in whole screen when casting from MacBook Pro'
+[Converter] Converting article ID 16364134190355: 'How to use Streaming App with OptiSigns'
+[Converter] Successfully converted article ID 16364134190355: 'How to use Streaming App with OptiSigns'
+[Scraper] New article saved - ID: 16364134190355, Title: 'How to use Streaming App with OptiSigns'
+[Converter] Converting article ID 15861880059283: 'Silent Installation process for OptiSigns Player on Windows'
+[Converter] Successfully converted article ID 15861880059283: 'Silent Installation process for OptiSigns Player on Windows'
+[Scraper] New article saved - ID: 15861880059283, Title: 'Silent Installation process for OptiSigns Player on Windows'
+[Converter] Converting article ID 15808407287315: 'The OptiSigns app keeps turning on the TV screen'
+[Converter] Successfully converted article ID 15808407287315: 'The OptiSigns app keeps turning on the TV screen'
+[Scraper] New article saved - ID: 15808407287315, Title: 'The OptiSigns app keeps turning on the TV screen'
+[Converter] Converting article ID 15313086319763: 'How to Design Kiosk Apps Using Kiosk Designer Pro'
+[Converter] Successfully converted article ID 15313086319763: 'How to Design Kiosk Apps Using Kiosk Designer Pro'
+[Scraper] New article saved - ID: 15313086319763, Title: 'How to Design Kiosk Apps Using Kiosk Designer Pro'
+[Converter] Converting article ID 15268811715347: 'Cannot find the OptiSigns app on Your Samsung Smart TV'
+[Converter] Successfully converted article ID 15268811715347: 'Cannot find the OptiSigns app on Your Samsung Smart TV'
+[Scraper] New article saved - ID: 15268811715347, Title: 'Cannot find the OptiSigns app on Your Samsung Smart TV'
+[Converter] Converting article ID 13320135306515: 'Build Integration Using OptiSigns Enterprise App'
+[Converter] Successfully converted article ID 13320135306515: 'Build Integration Using OptiSigns Enterprise App'
+[Scraper] New article saved - ID: 13320135306515, Title: 'Build Integration Using OptiSigns Enterprise App'
+[Converter] Converting article ID 13097501958291: 'OptiSigns IoT Sensor Add-on - Quick Start'
+[Converter] Successfully converted article ID 13097501958291: 'OptiSigns IoT Sensor Add-on - Quick Start'
+[Scraper] New article saved - ID: 13097501958291, Title: 'OptiSigns IoT Sensor Add-on - Quick Start'
+[Converter] Converting article ID 12947300131731: 'Show/Hide downloading status on your Player'
+[Converter] Successfully converted article ID 12947300131731: 'Show/Hide downloading status on your Player'
+[Scraper] New article saved - ID: 12947300131731, Title: 'Show/Hide downloading status on your Player'
+[Converter] Converting article ID 11412877112595: 'What if the OptiSigns app will not able to auto-start on the Android TV'
+[Converter] Successfully converted article ID 11412877112595: 'What if the OptiSigns app will not able to auto-start on the Android TV'
+[Scraper] New article saved - ID: 11412877112595, Title: 'What if the OptiSigns app will not able to auto-start on the Android TV'
+[Converter] Converting article ID 10517038025363: 'How to Customize Branding and Fonts in the OptiSigns Designer (Brand Kit)'
+[Converter] Successfully converted article ID 10517038025363: 'How to Customize Branding and Fonts in the OptiSigns Designer (Brand Kit)'
+[Scraper] New article saved - ID: 10517038025363, Title: 'How to Customize Branding and Fonts in the OptiSigns Designer (Brand Kit)'
+[Converter] Converting article ID 10159088954387: 'How to put Live TV on your screens with OptiSigns'
+[Converter] Successfully converted article ID 10159088954387: 'How to put Live TV on your screens with OptiSigns'
+[Scraper] New article saved - ID: 10159088954387, Title: 'How to put Live TV on your screens with OptiSigns'
+[Converter] Converting article ID 9169378546195: 'Data Residency and OptiSigns'
+[Converter] Successfully converted article ID 9169378546195: 'Data Residency and OptiSigns'
+[Scraper] New article saved - ID: 9169378546195, Title: 'Data Residency and OptiSigns'
+[Converter] Converting article ID 9061950942995: 'Using RS-232 to Schedule TV Power On/Off or other commands'
+[Converter] Successfully converted article ID 9061950942995: 'Using RS-232 to Schedule TV Power On/Off or other commands'
+[Scraper] New article saved - ID: 9061950942995, Title: 'Using RS-232 to Schedule TV Power On/Off or other commands'
+[Converter] Converting article ID 8099928867475: 'How to get the MAC Address on your media player'
+[Converter] Successfully converted article ID 8099928867475: 'How to get the MAC Address on your media player'
+[Scraper] New article saved - ID: 8099928867475, Title: 'How to get the MAC Address on your media player'
+[Converter] Converting article ID 7865572050195: 'How to hide certain templates categories in Designers'
+[Converter] Successfully converted article ID 7865572050195: 'How to hide certain templates categories in Designers'
+[Scraper] New article saved - ID: 7865572050195, Title: 'How to hide certain templates categories in Designers'
+[Converter] Converting article ID 7592123111699: 'Host your HTML/JS or Create your own Web App with Hosted Website'
+[Converter] Successfully converted article ID 7592123111699: 'Host your HTML/JS or Create your own Web App with Hosted Website'
+[Scraper] New article saved - ID: 7592123111699, Title: 'Host your HTML/JS or Create your own Web App with Hosted Website'
+[Converter] Converting article ID 7589195635219: 'Using eyedrop feature to select color in Designer app'
+[Converter] Successfully converted article ID 7589195635219: 'Using eyedrop feature to select color in Designer app'
+[Scraper] New article saved - ID: 7589195635219, Title: 'Using eyedrop feature to select color in Designer app'
+[Converter] Converting article ID 6605515731603: 'Apple TV player release notes & limitations'
+[Converter] Successfully converted article ID 6605515731603: 'Apple TV player release notes & limitations'
+[Scraper] New article saved - ID: 6605515731603, Title: 'Apple TV player release notes & limitations'
+[Converter] Converting article ID 4428997257491: 'How to organize templates and share across teams '
+[Converter] Successfully converted article ID 4428997257491: 'How to organize templates and share across teams '
+[Scraper] New article saved - ID: 4428997257491, Title: 'How to organize templates and share across teams '
+[Converter] Converting article ID 4416889688979: 'How to Remotely Manage your OptiSigns Android Player'
+[Converter] Successfully converted article ID 4416889688979: 'How to Remotely Manage your OptiSigns Android Player'
+[Scraper] New article saved - ID: 4416889688979, Title: 'How to Remotely Manage your OptiSigns Android Player'
+[Converter] Converting article ID 4416704273811: 'Manually control playlist playback with OptiSigns'
+[Converter] Successfully converted article ID 4416704273811: 'Manually control playlist playback with OptiSigns'
+[Scraper] New article saved - ID: 4416704273811, Title: 'Manually control playlist playback with OptiSigns'
+[Converter] Converting article ID 4416542923667: 'How to Perform Mass Provisioning with OptiSigns'
+[Converter] Successfully converted article ID 4416542923667: 'How to Perform Mass Provisioning with OptiSigns'
+[Scraper] New article saved - ID: 4416542923667, Title: 'How to Perform Mass Provisioning with OptiSigns'
+[Converter] Converting article ID 4414552808467: 'Introduction'
+[Converter] Successfully converted article ID 4414552808467: 'Introduction'
+[Scraper] New article saved - ID: 4414552808467, Title: 'Introduction'
+[Converter] Converting article ID 4412065189267: 'Synchronized playback (Sync Play) feature'
+[Converter] Successfully converted article ID 4412065189267: 'Synchronized playback (Sync Play) feature'
+[Scraper] New article saved - ID: 4412065189267, Title: 'Synchronized playback (Sync Play) feature'
+[Converter] Converting article ID 4411956075027: 'Clean install OptiSigns on Raspberry Pi/Linux'
+[Converter] Successfully converted article ID 4411956075027: 'Clean install OptiSigns on Raspberry Pi/Linux'
+[Scraper] New article saved - ID: 4411956075027, Title: 'Clean install OptiSigns on Raspberry Pi/Linux'
+[Converter] Converting article ID 4411743936147: 'How to Connect to 802.1x Enterprise WiFi on Raspberry Pi'
+[Converter] Successfully converted article ID 4411743936147: 'How to Connect to 802.1x Enterprise WiFi on Raspberry Pi'
+[Scraper] New article saved - ID: 4411743936147, Title: 'How to Connect to 802.1x Enterprise WiFi on Raspberry Pi'
+[Converter] Converting article ID 4408946045715: 'How to Integrate Bonusly Digital Signage with Optisigns'
+[Converter] Successfully converted article ID 4408946045715: 'How to Integrate Bonusly Digital Signage with Optisigns'
+[Scraper] New article saved - ID: 4408946045715, Title: 'How to Integrate Bonusly Digital Signage with Optisigns'
+[Converter] Converting article ID 4408658251027: 'How to use Remote Command Execution - Windows/Linux'
+[Converter] Successfully converted article ID 4408658251027: 'How to use Remote Command Execution - Windows/Linux'
+[Scraper] New article saved - ID: 4408658251027, Title: 'How to use Remote Command Execution - Windows/Linux'
+[Converter] Converting article ID 4408052029587: 'How to Use Weather Apps Based on Device Location'
+[Converter] Successfully converted article ID 4408052029587: 'How to Use Weather Apps Based on Device Location'
+[Scraper] New article saved - ID: 4408052029587, Title: 'How to Use Weather Apps Based on Device Location'
+[Converter] Converting article ID 4407493404307: 'How to set up SAML 2.0 with OptiSigns and Google Workspace'
+[Converter] Successfully converted article ID 4407493404307: 'How to set up SAML 2.0 with OptiSigns and Google Workspace'
+[Scraper] New article saved - ID: 4407493404307, Title: 'How to set up SAML 2.0 with OptiSigns and Google Workspace'
+[Converter] Converting article ID 4407476403859: 'How to set up SAML 2.0 with OptiSigns and OneLogin(Shibboleth)'
+[Converter] Successfully converted article ID 4407476403859: 'How to set up SAML 2.0 with OptiSigns and OneLogin(Shibboleth)'
+[Scraper] New article saved - ID: 4407476403859, Title: 'How to set up SAML 2.0 with OptiSigns and OneLogin(Shibboleth)'
+[Converter] Converting article ID 4407386819731: 'How to set up SAML 2.0 with OptiSigns and OneLogin'
+[Converter] Successfully converted article ID 4407386819731: 'How to set up SAML 2.0 with OptiSigns and OneLogin'
+[Scraper] New article saved - ID: 4407386819731, Title: 'How to set up SAML 2.0 with OptiSigns and OneLogin'
+[Converter] Converting article ID 4407252213395: 'How to Set Up SAML 2.0 with OptiSigns and MS Entra ID (formerly Azure AD)'
+[Converter] Successfully converted article ID 4407252213395: 'How to Set Up SAML 2.0 with OptiSigns and MS Entra ID (formerly Azure AD)'
+[Scraper] New article saved - ID: 4407252213395, Title: 'How to Set Up SAML 2.0 with OptiSigns and MS Entra ID (formerly Azure AD)'
+[Converter] Converting article ID 4407128433299: 'SAML integration strategy & best practice'
+[Converter] Successfully converted article ID 4407128433299: 'SAML integration strategy & best practice'
+[Scraper] New article saved - ID: 4407128433299, Title: 'SAML integration strategy & best practice'
+[Converter] Converting article ID 4407068788883: 'Map View & Screen Location settings'
+[Converter] Successfully converted article ID 4407068788883: 'Map View & Screen Location settings'
+[Scraper] New article saved - ID: 4407068788883, Title: 'Map View & Screen Location settings'
+[Converter] Converting article ID 4404827608467: 'How to "unpin" OptiSigns app on your Managed Android Stick Player'
+[Converter] Successfully converted article ID 4404827608467: 'How to "unpin" OptiSigns app on your Managed Android Stick Player'
+[Scraper] New article saved - ID: 4404827608467, Title: 'How to "unpin" OptiSigns app on your Managed Android Stick Player'
+[Converter] Converting article ID 4404616139411: 'Add 1 or multiple assets to many playlists at the same time'
+[Converter] Successfully converted article ID 4404616139411: 'Add 1 or multiple assets to many playlists at the same time'
+[Scraper] New article saved - ID: 4404616139411, Title: 'Add 1 or multiple assets to many playlists at the same time'
+[Converter] Converting article ID 4404590815635: 'How to set up SAML 2.0  with OptiSigns and Okta'
+[Converter] Successfully converted article ID 4404590815635: 'How to set up SAML 2.0  with OptiSigns and Okta'
+[Scraper] New article saved - ID: 4404590815635, Title: 'How to set up SAML 2.0  with OptiSigns and Okta'
+[Converter] Converting article ID 4404151402899: 'How to Use OptiSigns' Template & Designer to Make Your Digital Signs in Minutes'
+[Converter] Successfully converted article ID 4404151402899: 'How to Use OptiSigns' Template & Designer to Make Your Digital Signs in Minutes'
+[Scraper] New article saved - ID: 4404151402899, Title: 'How to Use OptiSigns' Template & Designer to Make Your Digital Signs in Minutes'
+[Converter] Converting article ID 4403616315539: 'How to approve OptiSigns as Enterprise App on Microsoft Azure (for PowerBI, Calendar, etc. access)'
+[Converter] Successfully converted article ID 4403616315539: 'How to approve OptiSigns as Enterprise App on Microsoft Azure (for PowerBI, Calendar, etc. access)'
+[Scraper] New article saved - ID: 4403616315539, Title: 'How to approve OptiSigns as Enterprise App on Microsoft Azure (for PowerBI, Calendar, etc. access)'
+[Converter] Converting article ID 4403332894867: 'How to set up Audit Log for your account'
+[Converter] Successfully converted article ID 4403332894867: 'How to set up Audit Log for your account'
+[Scraper] New article saved - ID: 4403332894867, Title: 'How to set up Audit Log for your account'
+[Converter] Converting article ID 4403306341523: 'How to set up Monitoring Alert feature '
+[Converter] Successfully converted article ID 4403306341523: 'How to set up Monitoring Alert feature '
+[Scraper] New article saved - ID: 4403306341523, Title: 'How to set up Monitoring Alert feature '
+[Converter] Converting article ID 1500012522362: 'How to use the Web Scripting App'
+[Converter] Successfully converted article ID 1500012522362: 'How to use the Web Scripting App'
+[Scraper] New article saved - ID: 1500012522362, Title: 'How to use the Web Scripting App'
+[Converter] Converting article ID 1500010436341: 'Adjust the GPU memory on the Raspberry Pi'
+[Converter] Successfully converted article ID 1500010436341: 'Adjust the GPU memory on the Raspberry Pi'
+[Scraper] New article saved - ID: 1500010436341, Title: 'Adjust the GPU memory on the Raspberry Pi'
+[Converter] Converting article ID 1500009937122: 'Resolve Autostart issues on your Android TV devices'
+[Converter] Successfully converted article ID 1500009937122: 'Resolve Autostart issues on your Android TV devices'
+[Scraper] New article saved - ID: 1500009937122, Title: 'Resolve Autostart issues on your Android TV devices'
+[Converter] Converting article ID 1500009382101: 'Install/Update OptiSigns player on RPi via script'
+[Converter] Successfully converted article ID 1500009382101: 'Install/Update OptiSigns player on RPi via script'
+[Scraper] New article saved - ID: 1500009382101, Title: 'Install/Update OptiSigns player on RPi via script'
+[Converter] Converting article ID 1500008008981: 'How to enable SSH for your Raspberry Pi'
+[Converter] Successfully converted article ID 1500008008981: 'How to enable SSH for your Raspberry Pi'
+[Scraper] New article saved - ID: 1500008008981, Title: 'How to enable SSH for your Raspberry Pi'
+[Converter] Converting article ID 1500006130902: 'How to use Live TV with Ads App'
+[Converter] Successfully converted article ID 1500006130902: 'How to use Live TV with Ads App'
+[Scraper] New article saved - ID: 1500006130902, Title: 'How to use Live TV with Ads App'
+[Converter] Converting article ID 1500006056101: 'Multi-select assets in Files/Assets view'
+[Converter] Successfully converted article ID 1500006056101: 'Multi-select assets in Files/Assets view'
+[Scraper] New article saved - ID: 1500006056101, Title: 'Multi-select assets in Files/Assets view'
+[Converter] Converting article ID 1500005467601: 'Clean install of OptiSigns Player on Windows'
+[Converter] Successfully converted article ID 1500005467601: 'Clean install of OptiSigns Player on Windows'
+[Scraper] New article saved - ID: 1500005467601, Title: 'Clean install of OptiSigns Player on Windows'
+[Converter] Converting article ID 1500003161182: 'How to move screen to other team'
+[Converter] Successfully converted article ID 1500003161182: 'How to move screen to other team'
+[Scraper] New article saved - ID: 1500003161182, Title: 'How to move screen to other team'
+[Converter] Converting article ID 360063098753: 'How to mass deploy OptiSigns on Raspberry Pi devices'
+[Converter] Successfully converted article ID 360063098753: 'How to mass deploy OptiSigns on Raspberry Pi devices'
+[Scraper] New article saved - ID: 360063098753, Title: 'How to mass deploy OptiSigns on Raspberry Pi devices'
+[Converter] Converting article ID 1500002383502: 'How to install OptiSigns as Screensaver on Roku'
+[Converter] Successfully converted article ID 1500002383502: 'How to install OptiSigns as Screensaver on Roku'
+[Scraper] New article saved - ID: 1500002383502, Title: 'How to install OptiSigns as Screensaver on Roku'
+[Converter] Converting article ID 1500001561861: 'How to mix playlists and maintain screen time share with OptiSigns Content Rotation App'
+[Converter] Successfully converted article ID 1500001561861: 'How to mix playlists and maintain screen time share with OptiSigns Content Rotation App'
+[Scraper] New article saved - ID: 1500001561861, Title: 'How to mix playlists and maintain screen time share with OptiSigns Content Rotation App'
+[Converter] Converting article ID 360061576673: 'Advanced: Enforce SSO login for your account'
+[Converter] Successfully converted article ID 360061576673: 'Advanced: Enforce SSO login for your account'
+[Scraper] New article saved - ID: 360061576673, Title: 'Advanced: Enforce SSO login for your account'
+[Converter] Converting article ID 1500000941981: 'How to allow the OptiSigns app to access local storage on a Fire Stick'
+[Converter] Successfully converted article ID 1500000941981: 'How to allow the OptiSigns app to access local storage on a Fire Stick'
+[Scraper] New article saved - ID: 1500000941981, Title: 'How to allow the OptiSigns app to access local storage on a Fire Stick'
+[Converter] Converting article ID 360059386254: 'How to use YouTube Playlist with OptiSigns'
+[Converter] Successfully converted article ID 360059386254: 'How to use YouTube Playlist with OptiSigns'
+[Scraper] New article saved - ID: 360059386254, Title: 'How to use YouTube Playlist with OptiSigns'
+[Converter] Converting article ID 1500000493782: 'Billing: How Do I Change my Subscription Plan?'
+[Converter] Successfully converted article ID 1500000493782: 'Billing: How Do I Change my Subscription Plan?'
+[Scraper] New article saved - ID: 1500000493782, Title: 'Billing: How Do I Change my Subscription Plan?'
+[Converter] Converting article ID 1500000485202: 'Custom Branding Settings'
+[Converter] Successfully converted article ID 1500000485202: 'Custom Branding Settings'
+[Scraper] New article saved - ID: 1500000485202, Title: 'Custom Branding Settings'
+[Converter] Converting article ID 1500000480302: 'Advanced: Custom Domain mapping'
+[Converter] Successfully converted article ID 1500000480302: 'Advanced: Custom Domain mapping'
+[Scraper] New article saved - ID: 1500000480302, Title: 'Advanced: Custom Domain mapping'
+[Converter] Converting article ID 360060676993: 'How to manually install & activate OptiSigns AI Add-on on Linux or Raspberry Pi'
+[Converter] Successfully converted article ID 360060676993: 'How to manually install & activate OptiSigns AI Add-on on Linux or Raspberry Pi'
+[Scraper] New article saved - ID: 360060676993, Title: 'How to manually install & activate OptiSigns AI Add-on on Linux or Raspberry Pi'
+[Converter] Converting article ID 360058345334: 'How to run OptiSigns AI Add-on on start up in Windows'
+[Converter] Successfully converted article ID 360058345334: 'How to run OptiSigns AI Add-on on start up in Windows'
+[Scraper] New article saved - ID: 360058345334, Title: 'How to run OptiSigns AI Add-on on start up in Windows'
+[Converter] Converting article ID 360058259834: 'Audience Intelligence (AI Camera) FAQs'
+[Converter] Successfully converted article ID 360058259834: 'Audience Intelligence (AI Camera) FAQs'
+[Scraper] New article saved - ID: 360058259834, Title: 'Audience Intelligence (AI Camera) FAQs'
+[Converter] Converting article ID 360058936513: 'Advanced: Proof of Play (or Playback report)'
+[Converter] Successfully converted article ID 360058936513: 'Advanced: Proof of Play (or Playback report)'
+[Scraper] New article saved - ID: 360058936513, Title: 'Advanced: Proof of Play (or Playback report)'
+[Converter] Converting article ID 360055549854: 'Pre-configure Wifi with OptiSigns devices'
+[Converter] Successfully converted article ID 360055549854: 'Pre-configure Wifi with OptiSigns devices'
+[Scraper] New article saved - ID: 360055549854, Title: 'Pre-configure Wifi with OptiSigns devices'
+[Converter] Converting article ID 360055546594: 'How does pre-configured devices labeled in shipping package?'
+[Converter] Successfully converted article ID 360055546594: 'How does pre-configured devices labeled in shipping package?'
+[Scraper] New article saved - ID: 360055546594, Title: 'How does pre-configured devices labeled in shipping package?'
+[Converter] Converting article ID 360057327693: 'Advanced: How to Install & Activate OptiSigns Remote Agent on Windows'
+[Converter] Successfully converted article ID 360057327693: 'Advanced: How to Install & Activate OptiSigns Remote Agent on Windows'
+[Scraper] New article saved - ID: 360057327693, Title: 'Advanced: How to Install & Activate OptiSigns Remote Agent on Windows'
+[Converter] Converting article ID 360055328454: 'How to Enable/Disable Auto Update for OptiSigns app on Fire TV'
+[Converter] Successfully converted article ID 360055328454: 'How to Enable/Disable Auto Update for OptiSigns app on Fire TV'
+[Scraper] New article saved - ID: 360055328454, Title: 'How to Enable/Disable Auto Update for OptiSigns app on Fire TV'
+[Converter] Converting article ID 360057146573: 'Advanced: How to Manually Install & Activate OptiSigns Remote Agent on Linux or Raspberry Pi'
+[Converter] Successfully converted article ID 360057146573: 'Advanced: How to Manually Install & Activate OptiSigns Remote Agent on Linux or Raspberry Pi'
+[Scraper] New article saved - ID: 360057146573, Title: 'Advanced: How to Manually Install & Activate OptiSigns Remote Agent on Linux or Raspberry Pi'
+[Converter] Converting article ID 360055080914: 'How to Use USB HUB Adaptor Connect to Your Fire Stick'
+[Converter] Successfully converted article ID 360055080914: 'How to Use USB HUB Adaptor Connect to Your Fire Stick'
+[Scraper] New article saved - ID: 360055080914, Title: 'How to Use USB HUB Adaptor Connect to Your Fire Stick'
+[Converter] Converting article ID 360056655633: 'How to Change Time Zone on Your Raspberry Pi device'
+[Converter] Successfully converted article ID 360056655633: 'How to Change Time Zone on Your Raspberry Pi device'
+[Scraper] New article saved - ID: 360056655633, Title: 'How to Change Time Zone on Your Raspberry Pi device'
+[Converter] Converting article ID 360056627833: 'How To Connect To WiFi For Raspberry Pi'
+[Converter] Successfully converted article ID 360056627833: 'How To Connect To WiFi For Raspberry Pi'
+[Scraper] New article saved - ID: 360056627833, Title: 'How To Connect To WiFi For Raspberry Pi'
+[Converter] Converting article ID 360056090593: 'OptiSigns Side Menu Options'
+[Converter] Successfully converted article ID 360056090593: 'OptiSigns Side Menu Options'
+[Scraper] New article saved - ID: 360056090593, Title: 'OptiSigns Side Menu Options'
+[Converter] Converting article ID 360054298754: 'How to Factory Reset Your Fire Stick device '
+[Converter] Successfully converted article ID 360054298754: 'How to Factory Reset Your Fire Stick device '
+[Scraper] New article saved - ID: 360054298754, Title: 'How to Factory Reset Your Fire Stick device '
+[Converter] Converting article ID 360056087613: 'How to Clear Cache on Your Fire Stick device'
+[Converter] Successfully converted article ID 360056087613: 'How to Clear Cache on Your Fire Stick device'
+[Scraper] New article saved - ID: 360056087613, Title: 'How to Clear Cache on Your Fire Stick device'
+[Converter] Converting article ID 360056086653: 'How to Change Time Zone on Your Fire Stick device'
+[Converter] Successfully converted article ID 360056086653: 'How to Change Time Zone on Your Fire Stick device'
+[Scraper] New article saved - ID: 360056086653, Title: 'How to Change Time Zone on Your Fire Stick device'
+[Converter] Converting article ID 360054033374: 'How to set up OptiSigns Player on ChromeOS with Chrome Device Management'
+[Converter] Successfully converted article ID 360054033374: 'How to set up OptiSigns Player on ChromeOS with Chrome Device Management'
+[Scraper] New article saved - ID: 360054033374, Title: 'How to set up OptiSigns Player on ChromeOS with Chrome Device Management'
+[Converter] Converting article ID 360053198573: 'How to uninstall/reinstall OptiSigns app from your Fire Stick device'
+[Converter] Successfully converted article ID 360053198573: 'How to uninstall/reinstall OptiSigns app from your Fire Stick device'
+[Scraper] New article saved - ID: 360053198573, Title: 'How to uninstall/reinstall OptiSigns app from your Fire Stick device'
+[Converter] Converting article ID 360052361293: 'How to Update Fire TV OS to latest version'
+[Converter] Successfully converted article ID 360052361293: 'How to Update Fire TV OS to latest version'
+[Scraper] New article saved - ID: 360052361293, Title: 'How to Update Fire TV OS to latest version'
+[Converter] Converting article ID 360051745633: 'How to Set up an Instagram Business/Creator account'
+[Converter] Successfully converted article ID 360051745633: 'How to Set up an Instagram Business/Creator account'
+[Scraper] New article saved - ID: 360051745633, Title: 'How to Set up an Instagram Business/Creator account'
+[Converter] Converting article ID 360050728934: 'Difference between Instagram & Instagram Business App'
+[Converter] Successfully converted article ID 360050728934: 'Difference between Instagram & Instagram Business App'
+[Scraper] New article saved - ID: 360050728934, Title: 'Difference between Instagram & Instagram Business App'
+[Converter] Converting article ID 360050602413: 'How to use Overlay layers with OptiSigns'
+[Converter] Successfully converted article ID 360050602413: 'How to use Overlay layers with OptiSigns'
+[Scraper] New article saved - ID: 360050602413, Title: 'How to use Overlay layers with OptiSigns'
+[Converter] Converting article ID 360048914673: 'Edit Screen: What does each option do?'
+[Converter] Successfully converted article ID 360048914673: 'Edit Screen: What does each option do?'
+[Scraper] New article saved - ID: 360048914673, Title: 'Edit Screen: What does each option do?'
+[Converter] Converting article ID 360047275934: 'Whitelist OptiSigns IP addresses & ports'
+[Converter] Successfully converted article ID 360047275934: 'Whitelist OptiSigns IP addresses & ports'
+[Scraper] New article saved - ID: 360047275934, Title: 'Whitelist OptiSigns IP addresses & ports'
+[Converter] Converting article ID 360047232054: 'Amazon Fire Stick and security considerations'
+[Converter] Successfully converted article ID 360047232054: 'Amazon Fire Stick and security considerations'
+[Scraper] New article saved - ID: 360047232054, Title: 'Amazon Fire Stick and security considerations'
+[Converter] Converting article ID 360046356113: 'Advanced Security: Managing User Roles'
+[Converter] Successfully converted article ID 360046356113: 'Advanced Security: Managing User Roles'
+[Scraper] New article saved - ID: 360046356113, Title: 'Advanced Security: Managing User Roles'
+[Converter] Converting article ID 360044614514: 'There's no sounds output for my Raspberry Pi'
+[Converter] Successfully converted article ID 360044614514: 'There's no sounds output for my Raspberry Pi'
+[Scraper] New article saved - ID: 360044614514, Title: 'There's no sounds output for my Raspberry Pi'
+[Converter] Converting article ID 360044600474: 'Advanced Security: Folder Level Security'
+[Converter] Successfully converted article ID 360044600474: 'Advanced Security: Folder Level Security'
+[Scraper] New article saved - ID: 360044600474, Title: 'Advanced Security: Folder Level Security'
+[Converter] Converting article ID 360043670633: 'Organizing your files, assets, playlists and schedules by using Folders'
+[Converter] Successfully converted article ID 360043670633: 'Organizing your files, assets, playlists and schedules by using Folders'
+[Scraper] New article saved - ID: 360043670633, Title: 'Organizing your files, assets, playlists and schedules by using Folders'
+[Converter] Converting article ID 360043621953: 'How to Create and Use Nested Playlists'
+[Converter] Successfully converted article ID 360043621953: 'How to Create and Use Nested Playlists'
+[Scraper] New article saved - ID: 360043621953, Title: 'How to Create and Use Nested Playlists'
+[Converter] Converting article ID 360042736794: 'How to set an asset to Live or Expire at specific time'
+[Converter] Successfully converted article ID 360042736794: 'How to set an asset to Live or Expire at specific time'
+[Scraper] New article saved - ID: 360042736794, Title: 'How to set an asset to Live or Expire at specific time'
+[Converter] Converting article ID 360042143753: 'How to re-encode video files for better compatibility on your devices'
+[Converter] Successfully converted article ID 360042143753: 'How to re-encode video files for better compatibility on your devices'
+[Scraper] New article saved - ID: 360042143753, Title: 'How to re-encode video files for better compatibility on your devices'
+[Converter] Converting article ID 360042143333: 'Roku Release Notes & Limitation'
+[Converter] Successfully converted article ID 360042143333: 'Roku Release Notes & Limitation'
+[Scraper] New article saved - ID: 360042143333, Title: 'Roku Release Notes & Limitation'
+[Converter] Converting article ID 360041587014: 'How to change Billing information'
+[Converter] Successfully converted article ID 360041587014: 'How to change Billing information'
+[Scraper] New article saved - ID: 360041587014, Title: 'How to change Billing information'
+[Converter] Converting article ID 360041570153: 'My image, content are bleeding off the screens with Windows, Linux, Mac, Raspberry Pi app (need screen calibration)'
+[Converter] Successfully converted article ID 360041570153: 'My image, content are bleeding off the screens with Windows, Linux, Mac, Raspberry Pi app (need screen calibration)'
+[Scraper] New article saved - ID: 360041570153, Title: 'My image, content are bleeding off the screens with Windows, Linux, Mac, Raspberry Pi app (need screen calibration)'
+[Converter] Converting article ID 360040943374: 'Assign Default Content for Schedules'
+[Converter] Successfully converted article ID 360040943374: 'Assign Default Content for Schedules'
+[Scraper] New article saved - ID: 360040943374, Title: 'Assign Default Content for Schedules'
+[Converter] Converting article ID 360039566974: 'How to install OptiSigns as channel/app on Roku'
+[Converter] Successfully converted article ID 360039566974: 'How to install OptiSigns as channel/app on Roku'
+[Scraper] New article saved - ID: 360039566974, Title: 'How to install OptiSigns as channel/app on Roku'
+[Converter] Converting article ID 360038992973: 'Video codec or video playback issues'
+[Converter] Successfully converted article ID 360038992973: 'Video codec or video playback issues'
+[Scraper] New article saved - ID: 360038992973, Title: 'Video codec or video playback issues'
+[Converter] Converting article ID 360037416494: 'How to use the Atlassian JIRA app'
+[Converter] Successfully converted article ID 360037416494: 'How to use the Atlassian JIRA app'
+[Scraper] New article saved - ID: 360037416494, Title: 'How to use the Atlassian JIRA app'
+[Converter] Converting article ID 360037391854: 'How to display content inside websites that require login?'
+[Converter] Successfully converted article ID 360037391854: 'How to display content inside websites that require login?'
+[Scraper] New article saved - ID: 360037391854, Title: 'How to display content inside websites that require login?'
+[Converter] Converting article ID 360036465673: 'Adjusting social, news wall speeds'
+[Converter] Successfully converted article ID 360036465673: 'Adjusting social, news wall speeds'
+[Scraper] New article saved - ID: 360036465673, Title: 'Adjusting social, news wall speeds'
+[Converter] Converting article ID 360035538093: 'My image, content are bleeding off the screens with Fire TV (need screen calibration)'
+[Converter] Successfully converted article ID 360035538093: 'My image, content are bleeding off the screens with Fire TV (need screen calibration)'
+[Scraper] New article saved - ID: 360035538093, Title: 'My image, content are bleeding off the screens with Fire TV (need screen calibration)'
+[Converter] Converting article ID 360034883113: 'Working with Teams and Security Levels'
+[Converter] Successfully converted article ID 360034883113: 'Working with Teams and Security Levels'
+[Scraper] New article saved - ID: 360034883113, Title: 'Working with Teams and Security Levels'
+[Converter] Converting article ID 360034379293: 'Windows'
+[Converter] Successfully converted article ID 360034379293: 'Windows'
+[Scraper] New article saved - ID: 360034379293, Title: 'Windows'
+[Converter] Converting article ID 360034219593: 'PowerPoint Transition and Animation effect'
+[Converter] Successfully converted article ID 360034219593: 'PowerPoint Transition and Animation effect'
+[Scraper] New article saved - ID: 360034219593, Title: 'PowerPoint Transition and Animation effect'
+[Converter] Converting article ID 360033693534: 'PowerPoint Resolution, Size for use with Digital Signage'
+[Converter] Successfully converted article ID 360033693534: 'PowerPoint Resolution, Size for use with Digital Signage'
+[Scraper] New article saved - ID: 360033693534, Title: 'PowerPoint Resolution, Size for use with Digital Signage'
+[Converter] Converting article ID 360026610194: 'Stretch your images, document - Stretch vs Fit vs Zoom your content'
+[Converter] Successfully converted article ID 360026610194: 'Stretch your images, document - Stretch vs Fit vs Zoom your content'
+[Scraper] New article saved - ID: 360026610194, Title: 'Stretch your images, document - Stretch vs Fit vs Zoom your content'
+[Converter] Converting article ID 360026559613: 'How to create a scrolling strip / bars'
+[Converter] Successfully converted article ID 360026559613: 'How to create a scrolling strip / bars'
+[Scraper] New article saved - ID: 360026559613, Title: 'How to create a scrolling strip / bars'
+[Converter] Converting article ID 360026559573: 'How to Create and Use the Split Screen App'
+[Converter] Successfully converted article ID 360026559573: 'How to Create and Use the Split Screen App'
+[Scraper] New article saved - ID: 360026559573, Title: 'How to Create and Use the Split Screen App'
+[Converter] Converting article ID 360025661053: 'How Can I Remove/Delete Uploaded Files or Assets?'
+[Converter] Successfully converted article ID 360025661053: 'How Can I Remove/Delete Uploaded Files or Assets?'
+[Scraper] New article saved - ID: 360025661053, Title: 'How Can I Remove/Delete Uploaded Files or Assets?'
+[Converter] Converting article ID 360025626853: 'How to start OptiSigns automatically when devices boot up'
+[Converter] Successfully converted article ID 360025626853: 'How to start OptiSigns automatically when devices boot up'
+[Scraper] New article saved - ID: 360025626853, Title: 'How to start OptiSigns automatically when devices boot up'
+[Converter] Converting article ID 360020931734: 'Can I Disable the Download Button for Assets?'
+[Converter] Successfully converted article ID 360020931734: 'Can I Disable the Download Button for Assets?'
+[Scraper] New article saved - ID: 360020931734, Title: 'Can I Disable the Download Button for Assets?'
+[Converter] Converting article ID 360016313754: 'How to Install an APK file on your Fire TV'
+[Converter] Successfully converted article ID 360016313754: 'How to Install an APK file on your Fire TV'
+[Scraper] New article saved - ID: 360016313754, Title: 'How to Install an APK file on your Fire TV'
+[Converter] Converting article ID 360016252654: 'Does OptiSigns offer Non-profit/Education discount?'
+[Converter] Successfully converted article ID 360016252654: 'Does OptiSigns offer Non-profit/Education discount?'
+[Scraper] New article saved - ID: 360016252654, Title: 'Does OptiSigns offer Non-profit/Education discount?'
+[Converter] Converting article ID 360016247974: 'How to Upload & Manage Your Files/ Assets'
+[Converter] Successfully converted article ID 360016247974: 'How to Upload & Manage Your Files/ Assets'
+[Scraper] New article saved - ID: 360016247974, Title: 'How to Upload & Manage Your Files/ Assets'
+[Converter] Converting article ID 360016342373: 'What types of files are supported?'
+[Converter] Successfully converted article ID 360016342373: 'What types of files are supported?'
+[Scraper] New article saved - ID: 360016342373, Title: 'What types of files are supported?'
+[Converter] Converting article ID 42305104960147: 'Animation'
+[Converter] Successfully converted article ID 42305104960147: 'Animation'
+[Scraper] New article saved - ID: 42305104960147, Title: 'Animation'
+[Converter] Converting article ID 32272215514131: 'OptiSigns Pro Digital Signage Player'
+[Converter] Successfully converted article ID 32272215514131: 'OptiSigns Pro Digital Signage Player'
+[Scraper] New article saved - ID: 32272215514131, Title: 'OptiSigns Pro Digital Signage Player'
+[Converter] Converting article ID 30003143806099: 'How to Use the OptiSigns Mobile Admin App'
+[Converter] Successfully converted article ID 30003143806099: 'How to Use the OptiSigns Mobile Admin App'
+[Scraper] New article saved - ID: 30003143806099, Title: 'How to Use the OptiSigns Mobile Admin App'
+[Converter] Converting article ID 29863080711059: 'How to add a Microsoft 365 Excel Spreadsheet as a DataSource for OptiSync'
+[Converter] Successfully converted article ID 29863080711059: 'How to add a Microsoft 365 Excel Spreadsheet as a DataSource for OptiSync'
+[Scraper] New article saved - ID: 29863080711059, Title: 'How to add a Microsoft 365 Excel Spreadsheet as a DataSource for OptiSync'
+[Converter] Converting article ID 28295074995859: 'How to Manage and Edit Your Playlist Settings'
+[Converter] Successfully converted article ID 28295074995859: 'How to Manage and Edit Your Playlist Settings'
+[Scraper] New article saved - ID: 28295074995859, Title: 'How to Manage and Edit Your Playlist Settings'
+[Converter] Converting article ID 28026588373139: 'How to Fix The Scaling Issue on OptiSigns Android Device Gen 3'
+[Converter] Successfully converted article ID 28026588373139: 'How to Fix The Scaling Issue on OptiSigns Android Device Gen 3'
+[Scraper] New article saved - ID: 28026588373139, Title: 'How to Fix The Scaling Issue on OptiSigns Android Device Gen 3'
+[Converter] Converting article ID 25607930101907: 'How to get the most out of your Digital Signs'
+[Converter] Successfully converted article ID 25607930101907: 'How to get the most out of your Digital Signs'
+[Scraper] New article saved - ID: 25607930101907, Title: 'How to get the most out of your Digital Signs'
+[Converter] Converting article ID 18986181635859: 'How to Share Contents with Other Users/Teams'
+[Converter] Successfully converted article ID 18986181635859: 'How to Share Contents with Other Users/Teams'
+[Scraper] New article saved - ID: 18986181635859, Title: 'How to Share Contents with Other Users/Teams'
+[Converter] Converting article ID 4472060158355: 'How to get the list of playlists where the asset is used '
+[Converter] Successfully converted article ID 4472060158355: 'How to get the list of playlists where the asset is used '
+[Scraper] New article saved - ID: 4472060158355, Title: 'How to get the list of playlists where the asset is used '
+[Converter] Converting article ID 4414563797139: 'Generate & Manage OptiSigns API Key'
+[Converter] Successfully converted article ID 4414563797139: 'Generate & Manage OptiSigns API Key'
+[Scraper] New article saved - ID: 4414563797139, Title: 'Generate & Manage OptiSigns API Key'
+[Converter] Converting article ID 360054557434: 'View Billing History and Download Receipts'
+[Converter] Successfully converted article ID 360054557434: 'View Billing History and Download Receipts'
+[Scraper] New article saved - ID: 360054557434, Title: 'View Billing History and Download Receipts'
+[Converter] Converting article ID 360050855313: 'How to link Instagram Business or Creator Account to Facebook Account'
+[Converter] Successfully converted article ID 360050855313: 'How to link Instagram Business or Creator Account to Facebook Account'
+[Scraper] New article saved - ID: 360050855313, Title: 'How to link Instagram Business or Creator Account to Facebook Account'
+[Converter] Converting article ID 360050642833: 'How to use Google Slides with OptiSigns'
+[Converter] Successfully converted article ID 360050642833: 'How to use Google Slides with OptiSigns'
+[Scraper] New article saved - ID: 360050642833, Title: 'How to use Google Slides with OptiSigns'
+[Converter] Converting article ID 360041501494: 'MacOS'
+[Converter] Successfully converted article ID 360041501494: 'MacOS'
+[Scraper] New article saved - ID: 360041501494, Title: 'MacOS'
+[Converter] Converting article ID 360035739414: 'How to Preview a Screen'
+[Converter] Successfully converted article ID 360035739414: 'How to Preview a Screen'
+[Scraper] New article saved - ID: 360035739414, Title: 'How to Preview a Screen'
+[Converter] Converting article ID 360024310813: 'How to use a PDF with OptiSigns'
+[Converter] Successfully converted article ID 360024310813: 'How to use a PDF with OptiSigns'
+[Scraper] New article saved - ID: 360024310813, Title: 'How to use a PDF with OptiSigns'
+[Converter] Converting article ID 360016380053: 'How to Check WiFi Signal Strength on the Amazon Fire TV Stick'
+[Converter] Successfully converted article ID 360016380053: 'How to Check WiFi Signal Strength on the Amazon Fire TV Stick'
+[Scraper] New article saved - ID: 360016380053, Title: 'How to Check WiFi Signal Strength on the Amazon Fire TV Stick'
+[Converter] Converting article ID 42830652820115: 'Your Templates'
+[Converter] Successfully converted article ID 42830652820115: 'Your Templates'
+[Scraper] New article saved - ID: 42830652820115, Title: 'Your Templates'
+[Converter] Converting article ID 35626165056787: 'How to Contact OptiSigns Support'
+[Converter] Successfully converted article ID 35626165056787: 'How to Contact OptiSigns Support'
+[Scraper] New article saved - ID: 35626165056787, Title: 'How to Contact OptiSigns Support'
+[Converter] Converting article ID 32129032857875: 'Where to Buy OptiSigns Devices'
+[Converter] Successfully converted article ID 32129032857875: 'Where to Buy OptiSigns Devices'
+[Scraper] New article saved - ID: 32129032857875, Title: 'Where to Buy OptiSigns Devices'
+[Converter] Converting article ID 29838866920211: 'How to add Google Sheets as a DataSource for OptiSync'
+[Converter] Successfully converted article ID 29838866920211: 'How to add Google Sheets as a DataSource for OptiSync'
+[Scraper] New article saved - ID: 29838866920211, Title: 'How to add Google Sheets as a DataSource for OptiSync'
+[Converter] Converting article ID 27676133574547: 'I received the OptiSigns device but it's OnHold and cannot assign content'
+[Converter] Successfully converted article ID 27676133574547: 'I received the OptiSigns device but it's OnHold and cannot assign content'
+[Scraper] New article saved - ID: 27676133574547, Title: 'I received the OptiSigns device but it's OnHold and cannot assign content'
+[Converter] Converting article ID 17639078588691: 'How to cancel subscription or pause subscription for Seasonal Use Case'
+[Converter] Successfully converted article ID 17639078588691: 'How to cancel subscription or pause subscription for Seasonal Use Case'
+[Scraper] New article saved - ID: 17639078588691, Title: 'How to cancel subscription or pause subscription for Seasonal Use Case'
+[Converter] Converting article ID 6636047009427: 'How to install OptiSigns Player on Apple TV'
+[Converter] Successfully converted article ID 6636047009427: 'How to install OptiSigns Player on Apple TV'
+[Scraper] New article saved - ID: 6636047009427, Title: 'How to install OptiSigns Player on Apple TV'
+[Converter] Converting article ID 4414563863827: 'Get Started'
+[Converter] Successfully converted article ID 4414563863827: 'Get Started'
+[Scraper] New article saved - ID: 4414563863827, Title: 'Get Started'
+[Converter] Converting article ID 1500002047642: 'Advanced: How to assign security for users to only edit certain zones of the screens'
+[Converter] Successfully converted article ID 1500002047642: 'Advanced: How to assign security for users to only edit certain zones of the screens'
+[Scraper] New article saved - ID: 1500002047642, Title: 'Advanced: How to assign security for users to only edit certain zones of the screens'
+[Converter] Converting article ID 360053211594: 'Set OptiSigns as ScreenSaver on Windows'
+[Converter] Successfully converted article ID 360053211594: 'Set OptiSigns as ScreenSaver on Windows'
+[Scraper] New article saved - ID: 360053211594, Title: 'Set OptiSigns as ScreenSaver on Windows'
+[Converter] Converting article ID 360051014773: 'Show YouTube video's subtitle/closed caption'
+[Converter] Successfully converted article ID 360051014773: 'Show YouTube video's subtitle/closed caption'
+[Scraper] New article saved - ID: 360051014773, Title: 'Show YouTube video's subtitle/closed caption'
+[Converter] Converting article ID 360034379573: 'Linux'
+[Converter] Successfully converted article ID 360034379573: 'Linux'
+[Scraper] New article saved - ID: 360034379573, Title: 'Linux'
+[Converter] Converting article ID 360016833514: 'Changing screen's orientation (portrait & landscape)'
+[Converter] Successfully converted article ID 360016833514: 'Changing screen's orientation (portrait & landscape)'
+[Scraper] New article saved - ID: 360016833514, Title: 'Changing screen's orientation (portrait & landscape)'
+[Converter] Converting article ID 360016485633: 'How can I remotely start/restart OptiSigns app on Fire TV?'
+[Converter] Successfully converted article ID 360016485633: 'How can I remotely start/restart OptiSigns app on Fire TV?'
+[Scraper] New article saved - ID: 360016485633, Title: 'How can I remotely start/restart OptiSigns app on Fire TV?'
+[Converter] Converting article ID 360016388733: 'How to create and use Instagram Wall'
+[Converter] Successfully converted article ID 360016388733: 'How to create and use Instagram Wall'
+[Scraper] New article saved - ID: 360016388733, Title: 'How to create and use Instagram Wall'
+[Converter] Converting article ID 360016219114: 'What if I want to increase, decrease number of screens during the month?'
+[Converter] Successfully converted article ID 360016219114: 'What if I want to increase, decrease number of screens during the month?'
+[Scraper] New article saved - ID: 360016219114, Title: 'What if I want to increase, decrease number of screens during the month?'
+[Converter] Converting article ID 42436941395475: 'Widgets in Designer'
+[Converter] Successfully converted article ID 42436941395475: 'Widgets in Designer'
+[Scraper] New article saved - ID: 42436941395475, Title: 'Widgets in Designer'
+[Converter] Converting article ID 29979283289235: 'How to Display Birthday Lists with OptiSync Data Mapping and Google Sheets'
+[Converter] Successfully converted article ID 29979283289235: 'How to Display Birthday Lists with OptiSync Data Mapping and Google Sheets'
+[Scraper] New article saved - ID: 29979283289235, Title: 'How to Display Birthday Lists with OptiSync Data Mapping and Google Sheets'
+[Converter] Converting article ID 27607906766483: 'How to Fix The Scaling Issue on OptiSigns Android Device'
+[Converter] Successfully converted article ID 27607906766483: 'How to Fix The Scaling Issue on OptiSigns Android Device'
+[Scraper] New article saved - ID: 27607906766483, Title: 'How to Fix The Scaling Issue on OptiSigns Android Device'
+[Converter] Converting article ID 17129313173395: 'How to manage Sub-Account billing with OptiSigns'
+[Converter] Successfully converted article ID 17129313173395: 'How to manage Sub-Account billing with OptiSigns'
+[Scraper] New article saved - ID: 17129313173395, Title: 'How to manage Sub-Account billing with OptiSigns'
+[Converter] Converting article ID 14726570281875: 'How to install OptiSigns on Samsung Tizen Smart TVs'
+[Converter] Successfully converted article ID 14726570281875: 'How to install OptiSigns on Samsung Tizen Smart TVs'
+[Scraper] New article saved - ID: 14726570281875, Title: 'How to install OptiSigns on Samsung Tizen Smart TVs'
+[Converter] Converting article ID 4414553099667: 'GraphQL API Tutorial: Pair and Assign Content to Screen'
+[Converter] Successfully converted article ID 4414553099667: 'GraphQL API Tutorial: Pair and Assign Content to Screen'
+[Scraper] New article saved - ID: 4414553099667, Title: 'GraphQL API Tutorial: Pair and Assign Content to Screen'
+[Converter] Converting article ID 4403015887763: 'Moderate your social media feeds'
+[Converter] Successfully converted article ID 4403015887763: 'Moderate your social media feeds'
+[Scraper] New article saved - ID: 4403015887763, Title: 'Moderate your social media feeds'
+[Converter] Converting article ID 1500004699122: 'Android TV / ChromeCast'
+[Converter] Successfully converted article ID 1500004699122: 'Android TV / ChromeCast'
+[Scraper] New article saved - ID: 1500004699122, Title: 'Android TV / ChromeCast'
+[Converter] Converting article ID 360063693093: 'How to use Approval Workflow feature'
+[Converter] Successfully converted article ID 360063693093: 'How to use Approval Workflow feature'
+[Scraper] New article saved - ID: 360063693093, Title: 'How to use Approval Workflow feature'
+[Converter] Converting article ID 360021855653: 'What hardware and devices are supported?'
+[Converter] Successfully converted article ID 360021855653: 'What hardware and devices are supported?'
+[Scraper] New article saved - ID: 360021855653, Title: 'What hardware and devices are supported?'
+[Converter] Converting article ID 360019588654: 'How to tell which Dropbox account that I linked to OptiSigns?'
+[Converter] Successfully converted article ID 360019588654: 'How to tell which Dropbox account that I linked to OptiSigns?'
+[Scraper] New article saved - ID: 360019588654, Title: 'How to tell which Dropbox account that I linked to OptiSigns?'
+[Converter] Converting article ID 360017964153: 'How to Use Weather Apps in OptiSigns'
+[Converter] Successfully converted article ID 360017964153: 'How to Use Weather Apps in OptiSigns'
+[Scraper] New article saved - ID: 360017964153, Title: 'How to Use Weather Apps in OptiSigns'
+[Converter] Converting article ID 360016375153: 'Assign content to your screens'
+[Converter] Successfully converted article ID 360016375153: 'Assign content to your screens'
+[Scraper] New article saved - ID: 360016375153, Title: 'Assign content to your screens'
+[Converter] Converting article ID 42526907045651: 'Photos, GIFs, and QR Codes in Designer'
+[Converter] Successfully converted article ID 42526907045651: 'Photos, GIFs, and QR Codes in Designer'
+[Scraper] New article saved - ID: 42526907045651, Title: 'Photos, GIFs, and QR Codes in Designer'
+[Converter] Converting article ID 27070013297427: 'Display Device Info Onscreen'
+[Converter] Successfully converted article ID 27070013297427: 'Display Device Info Onscreen'
+[Scraper] New article saved - ID: 27070013297427, Title: 'Display Device Info Onscreen'
+[Converter] Converting article ID 14557706459283: 'Present/ share iOS/ Android phone/ tablet to your screen with OptiSigns & AeriCast Add-on'
+[Converter] Successfully converted article ID 14557706459283: 'Present/ share iOS/ Android phone/ tablet to your screen with OptiSigns & AeriCast Add-on'
+[Scraper] New article saved - ID: 14557706459283, Title: 'Present/ share iOS/ Android phone/ tablet to your screen with OptiSigns & AeriCast Add-on'
+[Converter] Converting article ID 4414558295955: 'Tutorial: Create, Update, Add, Remove items from Playlists'
+[Converter] Successfully converted article ID 4414558295955: 'Tutorial: Create, Update, Add, Remove items from Playlists'
+[Scraper] New article saved - ID: 4414558295955, Title: 'Tutorial: Create, Update, Add, Remove items from Playlists'
+[Converter] Converting article ID 4411762539027: 'Multilingual and multi-currency'
+[Converter] Successfully converted article ID 4411762539027: 'Multilingual and multi-currency'
+[Scraper] New article saved - ID: 4411762539027, Title: 'Multilingual and multi-currency'
+[Converter] Converting article ID 1500008112642: 'How to install OptiSigns Player on Android Boxes'
+[Converter] Successfully converted article ID 1500008112642: 'How to install OptiSigns Player on Android Boxes'
+[Scraper] New article saved - ID: 1500008112642, Title: 'How to install OptiSigns Player on Android Boxes'
+[Converter] Converting article ID 360034379693: 'Raspberry Pi'
+[Converter] Successfully converted article ID 360034379693: 'Raspberry Pi'
+[Scraper] New article saved - ID: 360034379693, Title: 'Raspberry Pi'
+[Converter] Converting article ID 360016990233: 'Multi-users: Invite your team members to your account'
+[Converter] Successfully converted article ID 360016990233: 'Multi-users: Invite your team members to your account'
+[Scraper] New article saved - ID: 360016990233, Title: 'Multi-users: Invite your team members to your account'
+[Converter] Converting article ID 360016374813: 'Set up & add a screen'
+[Converter] Successfully converted article ID 360016374813: 'Set up & add a screen'
+[Scraper] New article saved - ID: 360016374813, Title: 'Set up & add a screen'
+[Converter] Converting article ID 42157810188179: 'Customize Text'
+[Converter] Successfully converted article ID 42157810188179: 'Customize Text'
+[Scraper] New article saved - ID: 42157810188179, Title: 'Customize Text'
+[Converter] Converting article ID 36562094987795: 'Tutorial: Creating or Updating Website Assets Using GraphQL'
+[Converter] Successfully converted article ID 36562094987795: 'Tutorial: Creating or Updating Website Assets Using GraphQL'
+[Scraper] New article saved - ID: 36562094987795, Title: 'Tutorial: Creating or Updating Website Assets Using GraphQL'
+[Converter] Converting article ID 34087061669523: 'Amazon Signage Stick'
+[Converter] Successfully converted article ID 34087061669523: 'Amazon Signage Stick'
+[Scraper] New article saved - ID: 34087061669523, Title: 'Amazon Signage Stick'
+[Converter] Converting article ID 14502723487379: 'How to use AeriCast Add-on for Wireless Presentation and Video Conferencing'
+[Converter] Successfully converted article ID 14502723487379: 'How to use AeriCast Add-on for Wireless Presentation and Video Conferencing'
+[Scraper] New article saved - ID: 14502723487379, Title: 'How to use AeriCast Add-on for Wireless Presentation and Video Conferencing'
+[Converter] Converting article ID 4404616314515: 'How to Change the Account Owner'
+[Converter] Successfully converted article ID 4404616314515: 'How to Change the Account Owner'
+[Scraper] New article saved - ID: 4404616314515, Title: 'How to Change the Account Owner'
+[Converter] Converting article ID 1500011891542: 'How to Install OptiSigns as an APK File on Android Devices'
+[Converter] Successfully converted article ID 1500011891542: 'How to Install OptiSigns as an APK File on Android Devices'
+[Scraper] New article saved - ID: 1500011891542, Title: 'How to Install OptiSigns as an APK File on Android Devices'
+[Converter] Converting article ID 360058700673: 'How to unpair a device, screen?'
+[Converter] Successfully converted article ID 360058700673: 'How to unpair a device, screen?'
+[Scraper] New article saved - ID: 360058700673, Title: 'How to unpair a device, screen?'
+[Converter] Converting article ID 360042424294: 'How far back or how many posts will be fetched for my Social Walls?'
+[Converter] Successfully converted article ID 360042424294: 'How far back or how many posts will be fetched for my Social Walls?'
+[Scraper] New article saved - ID: 360042424294, Title: 'How far back or how many posts will be fetched for my Social Walls?'
+[Converter] Converting article ID 360016494933: 'How to use iMovie content with OptiSigns?'
+[Converter] Successfully converted article ID 360016494933: 'How to use iMovie content with OptiSigns?'
+[Scraper] New article saved - ID: 360016494933, Title: 'How to use iMovie content with OptiSigns?'
+[Converter] Converting article ID 42307234534547: 'Shapes and Elements'
+[Converter] Successfully converted article ID 42307234534547: 'Shapes and Elements'
+[Scraper] New article saved - ID: 42307234534547, Title: 'Shapes and Elements'
+[Converter] Converting article ID 36558834998291: 'Tutorial: Creating Schedules and Adding Schedule Items Using GraphQL'
+[Converter] Successfully converted article ID 36558834998291: 'Tutorial: Creating Schedules and Adding Schedule Items Using GraphQL'
+[Scraper] New article saved - ID: 36558834998291, Title: 'Tutorial: Creating Schedules and Adding Schedule Items Using GraphQL'
+[Converter] Converting article ID 18500083191059: 'How to add captions to Vimeo videos'
+[Converter] Successfully converted article ID 18500083191059: 'How to add captions to Vimeo videos'
+[Scraper] New article saved - ID: 18500083191059, Title: 'How to add captions to Vimeo videos'
+[Converter] Converting article ID 14502378549907: 'Present / share your screen with OptiSigns & AeriCast Add-on'
+[Converter] Successfully converted article ID 14502378549907: 'Present / share your screen with OptiSigns & AeriCast Add-on'
+[Scraper] New article saved - ID: 14502378549907, Title: 'Present / share your screen with OptiSigns & AeriCast Add-on'
+[Converter] Converting article ID 4404608957075: 'How to Delete Your Account from OptiSigns'
+[Converter] Successfully converted article ID 4404608957075: 'How to Delete Your Account from OptiSigns'
+[Scraper] New article saved - ID: 4404608957075, Title: 'How to Delete Your Account from OptiSigns'
+[Converter] Converting article ID 360016361254: 'How can I schedule Auto Restart'
+[Converter] Successfully converted article ID 360016361254: 'How can I schedule Auto Restart'
+[Scraper] New article saved - ID: 360016361254, Title: 'How can I schedule Auto Restart'
+[Converter] Converting article ID 360016174554: 'Amazon Firestick'
+[Converter] Successfully converted article ID 360016174554: 'Amazon Firestick'
+[Scraper] New article saved - ID: 360016174554, Title: 'Amazon Firestick'
+[Converter] Converting article ID 42313875427859: 'Brand Kit and Enforcing Brand Guidelines'
+[Converter] Successfully converted article ID 42313875427859: 'Brand Kit and Enforcing Brand Guidelines'
+[Scraper] New article saved - ID: 42313875427859, Title: 'Brand Kit and Enforcing Brand Guidelines'
+[Converter] Converting article ID 21449362442003: 'Update OptiSigns player on OptiSigns Pro Player (Gen 2) via script'
+[Converter] Successfully converted article ID 21449362442003: 'Update OptiSigns player on OptiSigns Pro Player (Gen 2) via script'
+[Scraper] New article saved - ID: 21449362442003, Title: 'Update OptiSigns player on OptiSigns Pro Player (Gen 2) via script'
+[Converter] Converting article ID 12454101966355: 'How to use the MustHaveMenus  app with OptiSigns'
+[Converter] Successfully converted article ID 12454101966355: 'How to use the MustHaveMenus  app with OptiSigns'
+[Scraper] New article saved - ID: 12454101966355, Title: 'How to use the MustHaveMenus  app with OptiSigns'
+[Converter] Converting article ID 4414558369811: 'Pagination'
+[Converter] Successfully converted article ID 4414558369811: 'Pagination'
+[Scraper] New article saved - ID: 4414558369811, Title: 'Pagination'
+[Converter] Converting article ID 1500009498782: 'How to replace/update an existing asset (image, video, documents)'
+[Converter] Successfully converted article ID 1500009498782: 'How to replace/update an existing asset (image, video, documents)'
+[Scraper] New article saved - ID: 1500009498782, Title: 'How to replace/update an existing asset (image, video, documents)'
+[Converter] Converting article ID 1500009042742: 'FireOS TVs (Amazon, Insigna, Toshiba, TCL)'
+[Converter] Successfully converted article ID 1500009042742: 'FireOS TVs (Amazon, Insigna, Toshiba, TCL)'
+[Scraper] New article saved - ID: 1500009042742, Title: 'FireOS TVs (Amazon, Insigna, Toshiba, TCL)'
+[Converter] Converting article ID 1500003244381: 'About the OnHold Devices Folder'
+[Converter] Successfully converted article ID 1500003244381: 'About the OnHold Devices Folder'
+[Scraper] New article saved - ID: 1500003244381, Title: 'About the OnHold Devices Folder'
+[Converter] Converting article ID 360016981853: 'Create and Using Schedules with OptiSigns'
+[Converter] Successfully converted article ID 360016981853: 'Create and Using Schedules with OptiSigns'
+[Scraper] New article saved - ID: 360016981853, Title: 'Create and Using Schedules with OptiSigns'
+[Converter] Converting article ID 360016484473: 'Why Does My Screen Show as "Offline" on the Web Portal?'
+[Converter] Successfully converted article ID 360016484473: 'Why Does My Screen Show as "Offline" on the Web Portal?'
+[Scraper] New article saved - ID: 360016484473, Title: 'Why Does My Screen Show as "Offline" on the Web Portal?'
+[Converter] Converting article ID 11784310183571: 'How to use Waitwhile App'
+[Converter] Successfully converted article ID 11784310183571: 'How to use Waitwhile App'
+[Scraper] New article saved - ID: 11784310183571, Title: 'How to use Waitwhile App'
+[Converter] Converting article ID 5090125683219: 'BrightSign Players'
+[Converter] Successfully converted article ID 5090125683219: 'BrightSign Players'
+[Scraper] New article saved - ID: 5090125683219, Title: 'BrightSign Players'
+[Converter] Converting article ID 4414564078995: 'Error Handling'
+[Converter] Successfully converted article ID 4414564078995: 'Error Handling'
+[Scraper] New article saved - ID: 4414564078995, Title: 'Error Handling'
+[Converter] Converting article ID 360016484393: 'How can I improve stability of Fire TV as Digital Signage player?'
+[Converter] Successfully converted article ID 360016484393: 'How can I improve stability of Fire TV as Digital Signage player?'
+[Scraper] New article saved - ID: 360016484393, Title: 'How can I improve stability of Fire TV as Digital Signage player?'
+[Converter] Converting article ID 360016375793: 'Can I have my invoices, receipts sent to a different email address?'
+[Converter] Successfully converted article ID 360016375793: 'Can I have my invoices, receipts sent to a different email address?'
+[Scraper] New article saved - ID: 360016375793, Title: 'Can I have my invoices, receipts sent to a different email address?'
+[Converter] Converting article ID 36558469962643: 'Subscription Function in GraphQL'
+[Converter] Successfully converted article ID 36558469962643: 'Subscription Function in GraphQL'
+[Scraper] New article saved - ID: 36558469962643, Title: 'Subscription Function in GraphQL'
+[Converter] Converting article ID 360019710493: 'How to display Google Slide in Portrait Mode'
+[Converter] Successfully converted article ID 360019710493: 'How to display Google Slide in Portrait Mode'
+[Scraper] New article saved - ID: 360019710493, Title: 'How to display Google Slide in Portrait Mode'
+[Converter] Converting article ID 360016376793: 'What happen if internet connection is lost?'
+[Converter] Successfully converted article ID 360016376793: 'What happen if internet connection is lost?'
+[Scraper] New article saved - ID: 360016376793, Title: 'What happen if internet connection is lost?'
+[Converter] Converting article ID 360016252394: 'Web browser as OptiSigns player'
+[Converter] Successfully converted article ID 360016252394: 'Web browser as OptiSigns player'
+[Scraper] New article saved - ID: 360016252394, Title: 'Web browser as OptiSigns player'
+[Converter] Converting article ID 11116333259283: 'Setting Up Your Samsung Smart Signage Platform (SSSP - Commercial Grade)'
+[Converter] Successfully converted article ID 11116333259283: 'Setting Up Your Samsung Smart Signage Platform (SSSP - Commercial Grade)'
+[Scraper] New article saved - ID: 11116333259283, Title: 'Setting Up Your Samsung Smart Signage Platform (SSSP - Commercial Grade)'
+[Converter] Converting article ID 11032964830227: 'How to use Monday.com App'
+[Converter] Successfully converted article ID 11032964830227: 'How to use Monday.com App'
+[Scraper] New article saved - ID: 11032964830227, Title: 'How to use Monday.com App'
+[Converter] Converting article ID 4414558392339: 'API Reference'
+[Converter] Successfully converted article ID 4414558392339: 'API Reference'
+[Scraper] New article saved - ID: 4414558392339, Title: 'API Reference'
+[Converter] Converting article ID 360060049534: 'How to export high resolution canvas, template designs'
+[Converter] Successfully converted article ID 360060049534: 'How to export high resolution canvas, template designs'
+[Scraper] New article saved - ID: 360060049534, Title: 'How to export high resolution canvas, template designs'
+[Converter] Converting article ID 360016253874: 'Does OptiSigns support 4K content?'
+[Converter] Successfully converted article ID 360016253874: 'Does OptiSigns support 4K content?'
+[Scraper] New article saved - ID: 360016253874, Title: 'Does OptiSigns support 4K content?'
+[Converter] Converting article ID 12498801963027: 'Show Offline Indicator feature'
+[Converter] Successfully converted article ID 12498801963027: 'Show Offline Indicator feature'
+[Scraper] New article saved - ID: 12498801963027, Title: 'Show Offline Indicator feature'
+[Converter] Converting article ID 10259143299219: 'How to use Website Screenshot app'
+[Converter] Successfully converted article ID 10259143299219: 'How to use Website Screenshot app'
+[Scraper] New article saved - ID: 10259143299219, Title: 'How to use Website Screenshot app'
+[Converter] Converting article ID 4414496579475: 'LG WebOS Signage (Commercial Grade)'
+[Converter] Successfully converted article ID 4414496579475: 'LG WebOS Signage (Commercial Grade)'
+[Scraper] New article saved - ID: 4414496579475, Title: 'LG WebOS Signage (Commercial Grade)'
+[Converter] Converting article ID 360016253694: 'Is there storage limit for my account?'
+[Converter] Successfully converted article ID 360016253694: 'Is there storage limit for my account?'
+[Scraper] New article saved - ID: 360016253694, Title: 'Is there storage limit for my account?'
+[Converter] Converting article ID 12947820509971: 'Show/Hide Offline Indicator on your Player'
+[Converter] Successfully converted article ID 12947820509971: 'Show/Hide Offline Indicator on your Player'
+[Scraper] New article saved - ID: 12947820509971, Title: 'Show/Hide Offline Indicator on your Player'
+[Converter] Converting article ID 9392587446675: 'How to use Airtable with OptiSigns'
+[Converter] Successfully converted article ID 9392587446675: 'How to use Airtable with OptiSigns'
+[Scraper] New article saved - ID: 9392587446675, Title: 'How to use Airtable with OptiSigns'
+[Converter] Converting article ID 4404879296403: 'How to Clean Data on the OptiSigns Android Stick'
+[Converter] Successfully converted article ID 4404879296403: 'How to Clean Data on the OptiSigns Android Stick'
+[Scraper] New article saved - ID: 4404879296403, Title: 'How to Clean Data on the OptiSigns Android Stick'
+[Converter] Converting article ID 360021856013: 'Use Your Mac/Windows Device as a Test Screen'
+[Converter] Successfully converted article ID 360021856013: 'Use Your Mac/Windows Device as a Test Screen'
+[Scraper] New article saved - ID: 360021856013, Title: 'Use Your Mac/Windows Device as a Test Screen'
+[Converter] Converting article ID 360016253574: 'How do I suggest new features, improvement?'
+[Converter] Successfully converted article ID 360016253574: 'How do I suggest new features, improvement?'
+[Scraper] New article saved - ID: 360016253574, Title: 'How do I suggest new features, improvement?'
+[Converter] Converting article ID 8899727608083: 'How to use the QR Scan-to-Interact (Touchless QR) app'
+[Converter] Successfully converted article ID 8899727608083: 'How to use the QR Scan-to-Interact (Touchless QR) app'
+[Scraper] New article saved - ID: 8899727608083, Title: 'How to use the QR Scan-to-Interact (Touchless QR) app'
+[Converter] Converting article ID 8399990754195: 'How to display SmartSheet report on OptiSigns'
+[Converter] Successfully converted article ID 8399990754195: 'How to display SmartSheet report on OptiSigns'
+[Scraper] New article saved - ID: 8399990754195, Title: 'How to display SmartSheet report on OptiSigns'
+[Converter] Converting article ID 8369526604435: 'How to use the Video Stream app'
+[Converter] Successfully converted article ID 8369526604435: 'How to use the Video Stream app'
+[Scraper] New article saved - ID: 8369526604435, Title: 'How to use the Video Stream app'
+[Converter] Converting article ID 8098889840531: 'How to use RTSP Stream on Fire Stick and Andoird Stick via OptiSigns '
+[Converter] Successfully converted article ID 8098889840531: 'How to use RTSP Stream on Fire Stick and Andoird Stick via OptiSigns '
+[Scraper] New article saved - ID: 8098889840531, Title: 'How to use RTSP Stream on Fire Stick and Andoird Stick via OptiSigns '
+[Converter] Converting article ID 8066591235603: 'How to use RTSP Stream on Windows or Raspberry Pi via OptiSigns '
+[Converter] Successfully converted article ID 8066591235603: 'How to use RTSP Stream on Windows or Raspberry Pi via OptiSigns '
+[Scraper] New article saved - ID: 8066591235603, Title: 'How to use RTSP Stream on Windows or Raspberry Pi via OptiSigns '
+[Converter] Converting article ID 6757989639827: 'How to Use the Weather Alert App'
+[Converter] Successfully converted article ID 6757989639827: 'How to Use the Weather Alert App'
+[Scraper] New article saved - ID: 6757989639827, Title: 'How to Use the Weather Alert App'
+[Converter] Converting article ID 6604468198291: 'How to Use the CAP Alert App'
+[Converter] Successfully converted article ID 6604468198291: 'How to Use the CAP Alert App'
+[Scraper] New article saved - ID: 6604468198291, Title: 'How to Use the CAP Alert App'
+[Converter] Converting article ID 6091289267475: 'How to use Matterport App'
+[Converter] Successfully converted article ID 6091289267475: 'How to use Matterport App'
+[Scraper] New article saved - ID: 6091289267475, Title: 'How to use Matterport App'
+[Converter] Converting article ID 6086986017299: 'How to use OptiSigns Screen Capture app'
+[Converter] Successfully converted article ID 6086986017299: 'How to use OptiSigns Screen Capture app'
+[Scraper] New article saved - ID: 6086986017299, Title: 'How to use OptiSigns Screen Capture app'
+[Converter] Converting article ID 5149077938835: 'How to use Advanced Website App'
+[Converter] Successfully converted article ID 5149077938835: 'How to use Advanced Website App'
+[Scraper] New article saved - ID: 5149077938835, Title: 'How to use Advanced Website App'
+[Converter] Converting article ID 5119724468371: 'How to use Notion App'
+[Converter] Successfully converted article ID 5119724468371: 'How to use Notion App'
+[Scraper] New article saved - ID: 5119724468371, Title: 'How to use Notion App'
+[Converter] Converting article ID 4529298306963: 'How to use Microsoft Excel Online with OptiSigns'
+[Converter] Successfully converted article ID 4529298306963: 'How to use Microsoft Excel Online with OptiSigns'
+[Scraper] New article saved - ID: 4529298306963, Title: 'How to use Microsoft Excel Online with OptiSigns'
+[Converter] Converting article ID 4417940565139: 'How to display Microsoft Teams on OptiSigns'
+[Converter] Successfully converted article ID 4417940565139: 'How to display Microsoft Teams on OptiSigns'
+[Scraper] New article saved - ID: 4417940565139, Title: 'How to display Microsoft Teams on OptiSigns'
+[Converter] Converting article ID 4414539282067: 'Displaying SharePoint Sites on OptiSigns'
+[Converter] Successfully converted article ID 4414539282067: 'Displaying SharePoint Sites on OptiSigns'
+[Scraper] New article saved - ID: 4414539282067, Title: 'Displaying SharePoint Sites on OptiSigns'
+[Converter] Converting article ID 4414355658899: 'How to Use Microsoft PowerPoint with OptiSigns'
+[Converter] Successfully converted article ID 4414355658899: 'How to Use Microsoft PowerPoint with OptiSigns'
+[Scraper] New article saved - ID: 4414355658899, Title: 'How to Use Microsoft PowerPoint with OptiSigns'
+[Converter] Converting article ID 4411530012307: 'How to use Microsoft Teams Live app with OptiSigns'
+[Converter] Successfully converted article ID 4411530012307: 'How to use Microsoft Teams Live app with OptiSigns'
+[Scraper] New article saved - ID: 4411530012307, Title: 'How to use Microsoft Teams Live app with OptiSigns'
+[Converter] Converting article ID 4410655948563: 'How to use livestream.com app'
+[Converter] Successfully converted article ID 4410655948563: 'How to use livestream.com app'
+[Scraper] New article saved - ID: 4410655948563, Title: 'How to use livestream.com app'
+[Converter] Converting article ID 4409673381011: 'How to use Emergency Feed App'
+[Converter] Successfully converted article ID 4409673381011: 'How to use Emergency Feed App'
+[Scraper] New article saved - ID: 4409673381011, Title: 'How to use Emergency Feed App'
+[Converter] Converting article ID 4409607912211: 'How to setup WIFI with OptiSigns Admin mobile app on OptiSigns Pre-Configured Android Player'
+[Converter] Successfully converted article ID 4409607912211: 'How to setup WIFI with OptiSigns Admin mobile app on OptiSigns Pre-Configured Android Player'
+[Scraper] New article saved - ID: 4409607912211, Title: 'How to setup WIFI with OptiSigns Admin mobile app on OptiSigns Pre-Configured Android Player'
+[Converter] Converting article ID 4409448788499: 'How to use MRSS feeds with OptiSigns'
+[Converter] Successfully converted article ID 4409448788499: 'How to use MRSS feeds with OptiSigns'
+[Scraper] New article saved - ID: 4409448788499, Title: 'How to use MRSS feeds with OptiSigns'
+[Converter] Converting article ID 4408052949139: 'How to use Calendar Mix app'
+[Converter] Successfully converted article ID 4408052949139: 'How to use Calendar Mix app'
+[Scraper] New article saved - ID: 4408052949139, Title: 'How to use Calendar Mix app'
+[Converter] Converting article ID 4407335862931: 'How to use Slack App'
+[Converter] Successfully converted article ID 4407335862931: 'How to use Slack App'
+[Scraper] New article saved - ID: 4407335862931, Title: 'How to use Slack App'
+[Converter] Converting article ID 4407080297747: 'How to Use Animation on Templates & Designer Tool'
+[Converter] Successfully converted article ID 4407080297747: 'How to Use Animation on Templates & Designer Tool'
+[Scraper] New article saved - ID: 4407080297747, Title: 'How to Use Animation on Templates & Designer Tool'
+[Converter] Converting article ID 4406214738707: 'How to use Microsoft Meeting Room App'
+[Converter] Successfully converted article ID 4406214738707: 'How to use Microsoft Meeting Room App'
+[Scraper] New article saved - ID: 4406214738707, Title: 'How to use Microsoft Meeting Room App'
+[Converter] Converting article ID 4406180781203: 'How to use LinkedIn App'
+[Converter] Successfully converted article ID 4406180781203: 'How to use LinkedIn App'
+[Scraper] New article saved - ID: 4406180781203, Title: 'How to use LinkedIn App'
+[Converter] Converting article ID 4404053129619: 'How to use Microsoft Teams Meeting app with OptiSigns'
+[Converter] Successfully converted article ID 4404053129619: 'How to use Microsoft Teams Meeting app with OptiSigns'
+[Scraper] New article saved - ID: 4404053129619, Title: 'How to use Microsoft Teams Meeting app with OptiSigns'
+[Converter] Converting article ID 4403267825171: 'How to use the Social Mix App'
+[Converter] Successfully converted article ID 4403267825171: 'How to use the Social Mix App'
+[Scraper] New article saved - ID: 4403267825171, Title: 'How to use the Social Mix App'
+[Converter] Converting article ID 1500011611322: 'How to create and use CBC News Wall'
+[Converter] Successfully converted article ID 1500011611322: 'How to create and use CBC News Wall'
+[Scraper] New article saved - ID: 1500011611322, Title: 'How to create and use CBC News Wall'
+[Converter] Converting article ID 1500009492202: 'How to use On This Day app'
+[Converter] Successfully converted article ID 1500009492202: 'How to use On This Day app'
+[Scraper] New article saved - ID: 1500009492202, Title: 'How to use On This Day app'
+[Converter] Converting article ID 1500009343862: 'How to use the Taggbox Display app with OptiSigns'
+[Converter] Successfully converted article ID 1500009343862: 'How to use the Taggbox Display app with OptiSigns'
+[Scraper] New article saved - ID: 1500009343862, Title: 'How to use the Taggbox Display app with OptiSigns'
+[Converter] Converting article ID 1500005889381: 'How to use the MindMeister App'
+[Converter] Successfully converted article ID 1500005889381: 'How to use the MindMeister App'
+[Scraper] New article saved - ID: 1500005889381, Title: 'How to use the MindMeister App'
+[Converter] Converting article ID 1500005888781: 'How to Best Use Canva with OptiSigns'
+[Converter] Successfully converted article ID 1500005888781: 'How to Best Use Canva with OptiSigns'
+[Scraper] New article saved - ID: 1500005888781, Title: 'How to Best Use Canva with OptiSigns'
+[Converter] Converting article ID 1500002233221: 'How to use Asana App'
+[Converter] Successfully converted article ID 1500002233221: 'How to use Asana App'
+[Scraper] New article saved - ID: 1500002233221, Title: 'How to use Asana App'
+[Converter] Converting article ID 1500002131621: 'How to use YouTube Live with OptiSigns'
+[Converter] Successfully converted article ID 1500002131621: 'How to use YouTube Live with OptiSigns'
+[Scraper] New article saved - ID: 1500002131621, Title: 'How to use YouTube Live with OptiSigns'
+[Converter] Converting article ID 1500002042241: 'How to use HDMI & other video input sources in with OptiSigns'
+[Converter] Successfully converted article ID 1500002042241: 'How to use HDMI & other video input sources in with OptiSigns'
+[Scraper] New article saved - ID: 1500002042241, Title: 'How to use HDMI & other video input sources in with OptiSigns'
+[Converter] Converting article ID 1500001985341: 'How to Use the Local Folder App in OptiSigns'
+[Converter] Successfully converted article ID 1500001985341: 'How to Use the Local Folder App in OptiSigns'
+[Scraper] New article saved - ID: 1500001985341, Title: 'How to Use the Local Folder App in OptiSigns'
+[Converter] Converting article ID 360060284174: 'How to use YouTube Live Schedule with OptiSigns'
+[Converter] Successfully converted article ID 360060284174: 'How to use YouTube Live Schedule with OptiSigns'
+[Scraper] New article saved - ID: 360060284174, Title: 'How to use YouTube Live Schedule with OptiSigns'
+[Converter] Converting article ID 360060202914: 'How to use YouTube Channel with OptiSigns '
+[Converter] Successfully converted article ID 360060202914: 'How to use YouTube Channel with OptiSigns '
+[Scraper] New article saved - ID: 360060202914, Title: 'How to use YouTube Channel with OptiSigns '
+[Converter] Converting article ID 360060919453: 'How to put ZenDesk Dashboard on your signs'
+[Converter] Successfully converted article ID 360060919453: 'How to put ZenDesk Dashboard on your signs'
+[Scraper] New article saved - ID: 360060919453, Title: 'How to put ZenDesk Dashboard on your signs'
+[Converter] Converting article ID 360058855273: 'How to use Google Docs with OptiSigns'
+[Converter] Successfully converted article ID 360058855273: 'How to use Google Docs with OptiSigns'
+[Scraper] New article saved - ID: 360058855273, Title: 'How to use Google Docs with OptiSigns'
+[Converter] Converting article ID 360056977214: 'How to use Google Sheets with OptiSigns'
+[Converter] Successfully converted article ID 360056977214: 'How to use Google Sheets with OptiSigns'
+[Scraper] New article saved - ID: 360056977214, Title: 'How to use Google Sheets with OptiSigns'
+[Converter] Converting article ID 360056356414: 'How to use Scrolling Website App'
+[Converter] Successfully converted article ID 360056356414: 'How to use Scrolling Website App'
+[Scraper] New article saved - ID: 360056356414, Title: 'How to use Scrolling Website App'
+[Converter] Converting article ID 360055900513: 'How to create and use Virtual Screen App'
+[Converter] Successfully converted article ID 360055900513: 'How to create and use Virtual Screen App'
+[Scraper] New article saved - ID: 360055900513, Title: 'How to create and use Virtual Screen App'
+[Converter] Converting article ID 360053993934: 'How to use Kiosk Lite (formerly known as Interactive Kiosk app)'
+[Converter] Successfully converted article ID 360053993934: 'How to use Kiosk Lite (formerly known as Interactive Kiosk app)'
+[Scraper] New article saved - ID: 360053993934, Title: 'How to use Kiosk Lite (formerly known as Interactive Kiosk app)'
+[Converter] Converting article ID 360052827713: 'How to use Flash Message App'
+[Converter] Successfully converted article ID 360052827713: 'How to use Flash Message App'
+[Scraper] New article saved - ID: 360052827713, Title: 'How to use Flash Message App'
+[Converter] Converting article ID 360052513253: 'How to use Emergency Message/Alert App'
+[Converter] Successfully converted article ID 360052513253: 'How to use Emergency Message/Alert App'
+[Scraper] New article saved - ID: 360052513253, Title: 'How to use Emergency Message/Alert App'
+[Converter] Converting article ID 360052088413: 'How to use Google Looker Studio with OptiSigns (formerly Data Studio)'
+[Converter] Successfully converted article ID 360052088413: 'How to use Google Looker Studio with OptiSigns (formerly Data Studio)'
+[Scraper] New article saved - ID: 360052088413, Title: 'How to use Google Looker Studio with OptiSigns (formerly Data Studio)'
+[Converter] Converting article ID 360051317774: 'How to use Facebook Recommendations App'
+[Converter] Successfully converted article ID 360051317774: 'How to use Facebook Recommendations App'
+[Scraper] New article saved - ID: 360051317774, Title: 'How to use Facebook Recommendations App'
+[Converter] Converting article ID 360051495193: 'How to use Instagram Business App'
+[Converter] Successfully converted article ID 360051495193: 'How to use Instagram Business App'
+[Scraper] New article saved - ID: 360051495193, Title: 'How to use Instagram Business App'
+[Converter] Converting article ID 360050244454: 'How to use Trello App'
+[Converter] Successfully converted article ID 360050244454: 'How to use Trello App'
+[Scraper] New article saved - ID: 360050244454, Title: 'How to use Trello App'
+[Converter] Converting article ID 360051014713: 'How to use YouTube with OptiSigns'
+[Converter] Successfully converted article ID 360051014713: 'How to use YouTube with OptiSigns'
+[Scraper] New article saved - ID: 360051014713, Title: 'How to use YouTube with OptiSigns'
+[Converter] Converting article ID 360049875794: 'How to use Follow Us App'
+[Converter] Successfully converted article ID 360049875794: 'How to use Follow Us App'
+[Scraper] New article saved - ID: 360049875794, Title: 'How to use Follow Us App'
+[Converter] Converting article ID 360049872414: 'How to use Facebook Video App'
+[Converter] Successfully converted article ID 360049872414: 'How to use Facebook Video App'
+[Scraper] New article saved - ID: 360049872414, Title: 'How to use Facebook Video App'
+[Converter] Converting article ID 360050665413: 'How to use Dropbox App'
+[Converter] Successfully converted article ID 360050665413: 'How to use Dropbox App'
+[Scraper] New article saved - ID: 360050665413, Title: 'How to use Dropbox App'
+[Converter] Converting article ID 360050665253: 'How to use OneDrive App'
+[Converter] Successfully converted article ID 360050665253: 'How to use OneDrive App'
+[Scraper] New article saved - ID: 360050665253, Title: 'How to use OneDrive App'
+[Converter] Converting article ID 360050664913: 'How to use Google Trends App'
+[Converter] Successfully converted article ID 360050664913: 'How to use Google Trends App'
+[Scraper] New article saved - ID: 360050664913, Title: 'How to use Google Trends App'
+[Converter] Converting article ID 360049159814: 'How to use Walls.io App'
+[Converter] Successfully converted article ID 360049159814: 'How to use Walls.io App'
+[Scraper] New article saved - ID: 360049159814, Title: 'How to use Walls.io App'
+[Converter] Converting article ID 360049156234: 'How to use Currency Exchange App'
+[Converter] Successfully converted article ID 360049156234: 'How to use Currency Exchange App'
+[Scraper] New article saved - ID: 360049156234, Title: 'How to use Currency Exchange App'
+[Converter] Converting article ID 360049919933: 'How to use Crypto Index & Crypto Exchange App'
+[Converter] Successfully converted article ID 360049919933: 'How to use Crypto Index & Crypto Exchange App'
+[Scraper] New article saved - ID: 360049919933, Title: 'How to use Crypto Index & Crypto Exchange App'
+[Converter] Converting article ID 360049155994: 'How to use Market Index App'
+[Converter] Successfully converted article ID 360049155994: 'How to use Market Index App'
+[Scraper] New article saved - ID: 360049155994, Title: 'How to use Market Index App'
+[Converter] Converting article ID 360049518313: 'How to use Google Drive App'
+[Converter] Successfully converted article ID 360049518313: 'How to use Google Drive App'
+[Scraper] New article saved - ID: 360049518313, Title: 'How to use Google Drive App'
+[Converter] Converting article ID 360049328493: 'How to use the Twitter Counter App'
+[Converter] Successfully converted article ID 360049328493: 'How to use the Twitter Counter App'
+[Scraper] New article saved - ID: 360049328493, Title: 'How to use the Twitter Counter App'
+[Converter] Converting article ID 360049030453: 'How to use the Motivational Quote App'
+[Converter] Successfully converted article ID 360049030453: 'How to use the Motivational Quote App'
+[Scraper] New article saved - ID: 360049030453, Title: 'How to use the Motivational Quote App'
+[Converter] Converting article ID 360048660813: 'How to use Facebook Live Stream App'
+[Converter] Successfully converted article ID 360048660813: 'How to use Facebook Live Stream App'
+[Scraper] New article saved - ID: 360048660813, Title: 'How to use Facebook Live Stream App'
+[Converter] Converting article ID 360047501233: 'How to use Instagram Counter App'
+[Converter] Successfully converted article ID 360047501233: 'How to use Instagram Counter App'
+[Scraper] New article saved - ID: 360047501233, Title: 'How to use Instagram Counter App'
+[Converter] Converting article ID 360047499893: 'How to use Google Traffic App'
+[Converter] Successfully converted article ID 360047499893: 'How to use Google Traffic App'
+[Scraper] New article saved - ID: 360047499893, Title: 'How to use Google Traffic App'
+[Converter] Converting article ID 360046859534: 'How to use Twitch App'
+[Converter] Successfully converted article ID 360046859534: 'How to use Twitch App'
+[Scraper] New article saved - ID: 360046859534, Title: 'How to use Twitch App'
+[Converter] Converting article ID 360044619014: 'How to use the Facebook Counter App'
+[Converter] Successfully converted article ID 360044619014: 'How to use the Facebook Counter App'
+[Scraper] New article saved - ID: 360044619014, Title: 'How to use the Facebook Counter App'
+[Converter] Converting article ID 360045121233: 'How to use the New York Times app'
+[Converter] Successfully converted article ID 360045121233: 'How to use the New York Times app'
+[Scraper] New article saved - ID: 360045121233, Title: 'How to use the New York Times app'
+[Converter] Converting article ID 360044613874: 'How to use the Guardian App'
+[Converter] Successfully converted article ID 360044613874: 'How to use the Guardian App'
+[Scraper] New article saved - ID: 360044613874, Title: 'How to use the Guardian App'
+[Converter] Converting article ID 360045120133: 'How to use the Wall Street Journal App'
+[Converter] Successfully converted article ID 360045120133: 'How to use the Wall Street Journal App'
+[Scraper] New article saved - ID: 360045120133, Title: 'How to use the Wall Street Journal App'
+[Converter] Converting article ID 360044115513: 'How to use Stock App'
+[Converter] Successfully converted article ID 360044115513: 'How to use Stock App'
+[Scraper] New article saved - ID: 360044115513, Title: 'How to use Stock App'
+[Converter] Converting article ID 360042950593: 'How to use Simple Clock App'
+[Converter] Successfully converted article ID 360042950593: 'How to use Simple Clock App'
+[Scraper] New article saved - ID: 360042950593, Title: 'How to use Simple Clock App'
+[Converter] Converting article ID 360042450514: 'How to use World Clock App'
+[Converter] Successfully converted article ID 360042450514: 'How to use World Clock App'
+[Scraper] New article saved - ID: 360042450514, Title: 'How to use World Clock App'
+[Converter] Converting article ID 360041222994: 'How to use CountUp App'
+[Converter] Successfully converted article ID 360041222994: 'How to use CountUp App'
+[Scraper] New article saved - ID: 360041222994, Title: 'How to use CountUp App'
+[Converter] Converting article ID 360041638433: 'How to use CountDown App'
+[Converter] Successfully converted article ID 360041638433: 'How to use CountDown App'
+[Scraper] New article saved - ID: 360041638433, Title: 'How to use CountDown App'
+[Converter] Converting article ID 360041481553: 'How to use Simple Calendar App'
+[Converter] Successfully converted article ID 360041481553: 'How to use Simple Calendar App'
+[Scraper] New article saved - ID: 360041481553, Title: 'How to use Simple Calendar App'
+[Converter] Converting article ID 360040991534: 'How to create and use TechCrunch News App'
+[Converter] Successfully converted article ID 360040991534: 'How to create and use TechCrunch News App'
+[Scraper] New article saved - ID: 360040991534, Title: 'How to create and use TechCrunch News App'
+[Converter] Converting article ID 360040991474: 'How to create and use ESPN News App'
+[Converter] Successfully converted article ID 360040991474: 'How to create and use ESPN News App'
+[Scraper] New article saved - ID: 360040991474, Title: 'How to create and use ESPN News App'
+[Converter] Converting article ID 360041476213: 'How to create and use CNN News App'
+[Converter] Successfully converted article ID 360041476213: 'How to create and use CNN News App'
+[Scraper] New article saved - ID: 360041476213, Title: 'How to create and use CNN News App'
+[Converter] Converting article ID 360041428353: 'How to use Notice Board app'
+[Converter] Successfully converted article ID 360041428353: 'How to use Notice Board app'
+[Scraper] New article saved - ID: 360041428353, Title: 'How to use Notice Board app'
+[Converter] Converting article ID 360039264133: 'How to create and use QR Code, Call To Action app'
+[Converter] Successfully converted article ID 360039264133: 'How to create and use QR Code, Call To Action app'
+[Scraper] New article saved - ID: 360039264133, Title: 'How to create and use QR Code, Call To Action app'
+[Converter] Converting article ID 360038769394: 'How to create and use Yelp Reviews Wall'
+[Converter] Successfully converted article ID 360038769394: 'How to create and use Yelp Reviews Wall'
+[Scraper] New article saved - ID: 360038769394, Title: 'How to create and use Yelp Reviews Wall'
+[Converter] Converting article ID 360037463934: 'How to create and use Google Reviews Wall'
+[Converter] Successfully converted article ID 360037463934: 'How to create and use Google Reviews Wall'
+[Scraper] New article saved - ID: 360037463934, Title: 'How to create and use Google Reviews Wall'
+[Converter] Converting article ID 360036250853: 'How to use Microsoft Outlook/Office 365 Calendar with OptiSigns'
+[Converter] Successfully converted article ID 360036250853: 'How to use Microsoft Outlook/Office 365 Calendar with OptiSigns'
+[Scraper] New article saved - ID: 360036250853, Title: 'How to use Microsoft Outlook/Office 365 Calendar with OptiSigns'
+[Converter] Converting article ID 360037965133: 'How to use RSS feeds with OptiSigns'
+[Converter] Successfully converted article ID 360037965133: 'How to use RSS feeds with OptiSigns'
+[Scraper] New article saved - ID: 360037965133, Title: 'How to use RSS feeds with OptiSigns'
+[Converter] Converting article ID 360035815114: 'How to use Embed App'
+[Converter] Successfully converted article ID 360035815114: 'How to use Embed App'
+[Scraper] New article saved - ID: 360035815114, Title: 'How to use Embed App'
+[Converter] Converting article ID 360024859713: 'How to display Microsoft Power BI Dashboards & Reports on a TV'
+[Converter] Successfully converted article ID 360024859713: 'How to display Microsoft Power BI Dashboards & Reports on a TV'
+[Scraper] New article saved - ID: 360024859713, Title: 'How to display Microsoft Power BI Dashboards & Reports on a TV'
+[Converter] Converting article ID 360023848334: 'How to use Facebook Page App'
+[Converter] Successfully converted article ID 360023848334: 'How to use Facebook Page App'
+[Scraper] New article saved - ID: 360023848334, Title: 'How to use Facebook Page App'
+[Converter] Converting article ID 360016375473: 'How to create and use Twitter Wall'
+[Converter] Successfully converted article ID 360016375473: 'How to create and use Twitter Wall'
+[Scraper] New article saved - ID: 360016375473, Title: 'How to create and use Twitter Wall'
+[Converter] Converting article ID 360016375573: 'How to use published Google Slides with OptiSigns (old way)'
+[Converter] Successfully converted article ID 360016375573: 'How to use published Google Slides with OptiSigns (old way)'
+[Scraper] New article saved - ID: 360016375573, Title: 'How to use published Google Slides with OptiSigns (old way)'
+[Converter] Converting article ID 360022393473: 'How to use News App'
+[Converter] Successfully converted article ID 360022393473: 'How to use News App'
+[Scraper] New article saved - ID: 360022393473, Title: 'How to use News App'
+[Converter] Converting article ID 360019517953: 'How to use Google Calendar with OptiSigns'
+[Converter] Successfully converted article ID 360019517953: 'How to use Google Calendar with OptiSigns'
+[Scraper] New article saved - ID: 360019517953, Title: 'How to use Google Calendar with OptiSigns'
+[Converter] Converting article ID 360016254994: 'How to add & use Vimeo video with OptiSigns'
+[Converter] Successfully converted article ID 360016254994: 'How to add & use Vimeo video with OptiSigns'
+[Scraper] New article saved - ID: 360016254994, Title: 'How to add & use Vimeo video with OptiSigns'
+[Converter] Converting article ID 360016382473: 'How to use a Website link with OptiSigns'
+[Converter] Successfully converted article ID 360016382473: 'How to use a Website link with OptiSigns'
+[Scraper] New article saved - ID: 360016382473, Title: 'How to use a Website link with OptiSigns'
+[Scraper] Metadata saved successfully
+[Scraper] Processing completed at 2025-07-19 07:01:10
+[Scraper] Execution time: 67.15 seconds
+[Scraper] Summary: 394 total articles processed
+[Scraper] Results: 394 new, 0 updated, 0 skipped
+[Scraper] Successfully processed 394 articles
+================ Finished article scraping ===============
+
+================ Starting article upload ================
+[Upload] Starting upload process at 2025-07-19 07:01:10
+[Upload] Articles to process: 394 total (394 new, 0 updated)
+[Upload] Batch size: 10
+[Upload] Ensuring vector store exists...
+[VectorStore] Ensuring vector store exists: 'optibot_vector_store_test'
+[VectorStore] Searching for vector store: 'optibot_vector_store_test'
+[VectorStore] Found 3 existing vector stores
+[VectorStore] Vector store 'optibot_vector_store_test' not found
+[VectorStore] Creating new vector store: 'optibot_vector_store_test'
+[VectorStore] Successfully created vector store: 'optibot_vector_store_test' (ID: vs_687b42b5fc0c81918b2301fcb51ab130)
+[VectorStore] Vector store ready: 'optibot_vector_store_test' (ID: vs_687b42b5fc0c81918b2301fcb51ab130)
+[Upload] Validating article file paths...
+[FileHandlers] Starting file path validation
+[FileHandlers] Validating 394 article file paths
+[FileHandlers] Path validation completed: 394 valid, 0 missing
+[Upload] Ready to upload 394 valid article files
+[Upload] Starting batch upload: 40 batches planned
+[Upload] Processing batch 1/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 3.27 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 1 completed in 3.27s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 10 files, 10 chunks
+[Upload] Processing batch 2/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.98 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 2 completed in 4.98s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 20 files, 20 chunks
+[Upload] Processing batch 3/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 3.65 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 3 completed in 3.65s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 30 files, 30 chunks
+[Upload] Processing batch 4/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.05 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 4 completed in 5.05s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 40 files, 40 chunks
+[Upload] Processing batch 5/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.29 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 5 completed in 5.30s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 50 files, 50 chunks
+[Upload] Processing batch 6/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.29 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 6 completed in 5.29s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 60 files, 60 chunks
+[Upload] Processing batch 7/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.82 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 7 completed in 4.82s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 70 files, 70 chunks
+[Upload] Processing batch 8/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 2.42 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 8 completed in 2.42s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 80 files, 80 chunks
+[Upload] Processing batch 9/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 6.65 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 9 completed in 6.65s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 90 files, 90 chunks
+[Upload] Processing batch 10/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 17.70 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 10 completed in 17.70s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 100 files, 100 chunks
+[Upload] Processing batch 11/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 14.36 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 11 completed in 14.36s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 110 files, 110 chunks
+[Upload] Processing batch 12/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 3.58 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 12 completed in 3.58s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 120 files, 120 chunks
+[Upload] Processing batch 13/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.06 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 13 completed in 5.06s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 130 files, 130 chunks
+[Upload] Processing batch 14/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.10 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 14 completed in 5.10s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 140 files, 140 chunks
+[Upload] Processing batch 15/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 2.48 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 15 completed in 2.49s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 150 files, 150 chunks
+[Upload] Processing batch 16/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.57 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 16 completed in 5.57s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 160 files, 160 chunks
+[Upload] Processing batch 17/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.07 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 17 completed in 5.07s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 170 files, 170 chunks
+[Upload] Processing batch 18/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.28 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 18 completed in 5.28s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 180 files, 180 chunks
+[Upload] Processing batch 19/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.18 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 19 completed in 5.18s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 190 files, 190 chunks
+[Upload] Processing batch 20/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 3.71 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 20 completed in 3.71s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 200 files, 200 chunks
+[Upload] Processing batch 21/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 3.28 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 21 completed in 3.28s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 210 files, 210 chunks
+[Upload] Processing batch 22/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.91 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 22 completed in 4.91s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 220 files, 220 chunks
+[Upload] Processing batch 23/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 7.60 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 23 completed in 7.60s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 230 files, 230 chunks
+[Upload] Processing batch 24/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 13.12 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 24 completed in 13.12s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 240 files, 240 chunks
+[Upload] Processing batch 25/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.69 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 25 completed in 5.69s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 250 files, 250 chunks
+[Upload] Processing batch 26/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.03 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 26 completed in 5.04s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 260 files, 260 chunks
+[Upload] Processing batch 27/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 6.64 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 27 completed in 6.64s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 270 files, 270 chunks
+[Upload] Processing batch 28/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.87 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 28 completed in 5.87s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 280 files, 280 chunks
+[Upload] Processing batch 29/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 2.32 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 29 completed in 2.32s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 290 files, 290 chunks
+[Upload] Processing batch 30/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.21 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 30 completed in 5.21s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 300 files, 300 chunks
+[Upload] Processing batch 31/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.92 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 31 completed in 4.92s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 310 files, 310 chunks
+[Upload] Processing batch 32/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.80 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 32 completed in 4.80s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 320 files, 320 chunks
+[Upload] Processing batch 33/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.82 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 33 completed in 4.82s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 330 files, 330 chunks
+[Upload] Processing batch 34/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 9.78 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 34 completed in 9.78s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 340 files, 340 chunks
+[Upload] Processing batch 35/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 5.41 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 35 completed in 5.42s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 350 files, 350 chunks
+[Upload] Processing batch 36/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.93 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 36 completed in 4.93s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 360 files, 360 chunks
+[Upload] Processing batch 37/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 6.03 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 37 completed in 6.03s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 370 files, 370 chunks
+[Upload] Processing batch 38/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.73 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 38 completed in 4.73s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 380 files, 380 chunks
+[Upload] Processing batch 39/40 (10 files)
+[VectorStore] Starting batch upload of 10 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 10 files for upload
+[VectorStore] Batch upload completed in 4.63 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 10 completed, 0 failed, 0 in progress, 10 total
+[Upload] Batch 39 completed in 4.63s
+[Upload] Batch results: 10 files, 10 chunks processed
+[Upload] Running totals: 390 files, 390 chunks
+[Upload] Processing batch 40/40 (4 files)
+[VectorStore] Starting batch upload of 4 files
+[VectorStore] Target vector store ID: vs_687b42b5fc0c81918b2301fcb51ab130
+[VectorStore] Chunking config: 600 tokens max, 200 overlap
+[VectorStore] Successfully opened 4 files for upload
+[VectorStore] Batch upload completed in 1.15 seconds
+[VectorStore] Upload status: completed
+[VectorStore] File processing: 4 completed, 0 failed, 0 in progress, 4 total
+[Upload] Batch 40 completed in 1.15s
+[Upload] Batch results: 4 files, 4 chunks processed
+[Upload] Running totals: 394 files, 394 chunks
+[Upload] Upload process completed at 2025-07-19 07:04:57
+[Upload] Total execution time: 227.41 seconds
+[Upload] Batch summary: 40 successful, 0 failed
+[Upload] Final results: 394 files embedded, 394 chunks created
+[Upload] All batches completed successfully
+================ Finished article upload ================
+
+----- START: Script execution at Sat Jul 19 07:10:01 UTC 2025 -----
+================ Starting article scraping ===============
+[Scraper] Starting scraping process at 2025-07-19 07:10:02
+[Scraper] Loaded existing metadata for 394 articles
+[Scraper] Fetching articles from API...
+[Fetcher] Starting article fetch at 2025-07-19 07:10:02
+[Fetcher] Fetching articles, 40 per page
+[Fetcher] Requesting page 1
+[Fetcher] Page 1: Retrieved 40 articles, Total: 40
+[Fetcher] Processed 40 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 2
+[Fetcher] Page 2: Retrieved 40 articles, Total: 80
+[Fetcher] Processed 80 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 3
+[Fetcher] Page 3: Retrieved 40 articles, Total: 120
+[Fetcher] Processed 120 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 4
+[Fetcher] Page 4: Retrieved 40 articles, Total: 160
+[Fetcher] Processed 160 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 5
+[Fetcher] Page 5: Retrieved 40 articles, Total: 200
+[Fetcher] Processed 200 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 6
+[Fetcher] Page 6: Retrieved 40 articles, Total: 240
+[Fetcher] Processed 240 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 7
+[Fetcher] Page 7: Retrieved 40 articles, Total: 280
+[Fetcher] Processed 280 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 8
+[Fetcher] Page 8: Retrieved 40 articles, Total: 320
+[Fetcher] Processed 320 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 9
+[Fetcher] Page 9: Retrieved 40 articles, Total: 360
+[Fetcher] Processed 360 articles, sleeping for 5 seconds
+[Fetcher] Requesting page 10
+[Fetcher] Page 10: Retrieved 34 articles, Total: 394
+[Fetcher] Processed 394 articles, sleeping for 5 seconds
+[Fetcher] No more pages available
+[Fetcher] Fetch completed at 2025-07-19 07:11:02
+[Fetcher] Execution time: 59.39 seconds
+[Fetcher] Results: 394 articles retrieved from 10 pages
+[Scraper] Retrieved 394 articles from API
+[Scraper] Processing articles...
+[Scraper] Article 42915219118739 unchanged, skipping
+[Scraper] Article 42087942047379 unchanged, skipping
+[Scraper] Article 41432385864595 unchanged, skipping
+[Scraper] Article 40736654972563 unchanged, skipping
+[Scraper] Article 40671590645651 unchanged, skipping
+[Scraper] Article 40212027797523 unchanged, skipping
+[Scraper] Article 40147900639891 unchanged, skipping
+[Scraper] Article 39488874989587 unchanged, skipping
+[Scraper] Article 39250660729747 unchanged, skipping
+[Scraper] Article 39080869746067 unchanged, skipping
+[Scraper] Article 38680194603155 unchanged, skipping
+[Scraper] Article 38062664690195 unchanged, skipping
+[Scraper] Article 37966066335891 unchanged, skipping
+[Scraper] Article 36911639377683 unchanged, skipping
+[Scraper] Article 36501302096915 unchanged, skipping
+[Scraper] Article 35749502945555 unchanged, skipping
+[Scraper] Article 35577511423635 unchanged, skipping
+[Scraper] Article 35337746613139 unchanged, skipping
+[Scraper] Article 35184720136595 unchanged, skipping
+[Scraper] Article 34379983350163 unchanged, skipping
+[Scraper] Article 33940834613139 unchanged, skipping
+[Scraper] Article 33468569218067 unchanged, skipping
+[Scraper] Article 33382537925267 unchanged, skipping
+[Scraper] Article 32860569148819 unchanged, skipping
+[Scraper] Article 32839794222099 unchanged, skipping
+[Scraper] Article 31960461758611 unchanged, skipping
+[Scraper] Article 31860170199955 unchanged, skipping
+[Scraper] Article 31695220475283 unchanged, skipping
+[Scraper] Article 31449657955347 unchanged, skipping
+[Scraper] Article 31113088917907 unchanged, skipping
+[Scraper] Article 30310366838803 unchanged, skipping
+[Scraper] Article 30304278652563 unchanged, skipping
+[Scraper] Article 30010338528659 unchanged, skipping
+[Scraper] Article 29792081890323 unchanged, skipping
+[Scraper] Article 29465595849235 unchanged, skipping
+[Scraper] Article 29238381023123 unchanged, skipping
+[Scraper] Article 29232460955539 unchanged, skipping
+[Scraper] Article 29217646663187 unchanged, skipping
+[Scraper] Article 28598173096723 unchanged, skipping
+[Scraper] Article 28427819992979 unchanged, skipping
+[Scraper] Article 28424138317971 unchanged, skipping
+[Scraper] Article 28421615261971 unchanged, skipping
+[Scraper] Article 28295104605843 unchanged, skipping
+[Scraper] Article 28140190892307 unchanged, skipping
+[Scraper] Article 28115946505107 unchanged, skipping
+[Scraper] Article 27690296225555 unchanged, skipping
+[Scraper] Article 27463953562899 unchanged, skipping
+[Scraper] Article 27458261258387 unchanged, skipping
+[Scraper] Article 27356288211859 unchanged, skipping
+[Scraper] Article 27267311796243 unchanged, skipping
+[Scraper] Article 25273043501587 unchanged, skipping
+[Scraper] Article 25127398699667 unchanged, skipping
+[Scraper] Article 24338756617747 unchanged, skipping
+[Scraper] Article 23629657318547 unchanged, skipping
+[Scraper] Article 23566927217939 unchanged, skipping
+[Scraper] Article 23565267463315 unchanged, skipping
+[Scraper] Article 23274673797139 unchanged, skipping
+[Scraper] Article 23030445716883 unchanged, skipping
+[Scraper] Article 22875592994195 unchanged, skipping
+[Scraper] Article 22474034993043 unchanged, skipping
+[Scraper] Article 21708242980755 unchanged, skipping
+[Scraper] Article 20879903340947 unchanged, skipping
+[Scraper] Article 20750060900883 unchanged, skipping
+[Scraper] Article 20428606424723 unchanged, skipping
+[Scraper] Article 20425113117459 unchanged, skipping
+[Scraper] Article 20153471319187 unchanged, skipping
+[Scraper] Article 20062273670163 unchanged, skipping
+[Scraper] Article 19589190970771 unchanged, skipping
+[Scraper] Article 19171222981523 unchanged, skipping
+[Scraper] Article 19145077187859 unchanged, skipping
+[Scraper] Article 18988049363859 unchanged, skipping
+[Scraper] Article 18823504383891 unchanged, skipping
+[Scraper] Article 18470994953363 unchanged, skipping
+[Scraper] Article 18399492388371 unchanged, skipping
+[Scraper] Article 18381542133779 unchanged, skipping
+[Scraper] Article 17882306279315 unchanged, skipping
+[Scraper] Article 17604055961747 unchanged, skipping
+[Scraper] Article 17353256033811 unchanged, skipping
+[Scraper] Article 17342932920211 unchanged, skipping
+[Scraper] Article 17112492659475 unchanged, skipping
+[Scraper] Article 16364134190355 unchanged, skipping
+[Scraper] Article 15861880059283 unchanged, skipping
+[Scraper] Article 15808407287315 unchanged, skipping
+[Scraper] Article 15313086319763 unchanged, skipping
+[Scraper] Article 15268811715347 unchanged, skipping
+[Scraper] Article 13320135306515 unchanged, skipping
+[Scraper] Article 13097501958291 unchanged, skipping
+[Scraper] Article 12947300131731 unchanged, skipping
+[Scraper] Article 11412877112595 unchanged, skipping
+[Scraper] Article 10517038025363 unchanged, skipping
+[Scraper] Article 10159088954387 unchanged, skipping
+[Scraper] Article 9169378546195 unchanged, skipping
+[Scraper] Article 9061950942995 unchanged, skipping
+[Scraper] Article 8099928867475 unchanged, skipping
+[Scraper] Article 7865572050195 unchanged, skipping
+[Scraper] Article 7592123111699 unchanged, skipping
+[Scraper] Article 7589195635219 unchanged, skipping
+[Scraper] Article 6605515731603 unchanged, skipping
+[Scraper] Article 4428997257491 unchanged, skipping
+[Scraper] Article 4416889688979 unchanged, skipping
+[Scraper] Article 4416704273811 unchanged, skipping
+[Scraper] Article 4416542923667 unchanged, skipping
+[Scraper] Article 4414552808467 unchanged, skipping
+[Scraper] Article 4412065189267 unchanged, skipping
+[Scraper] Article 4411956075027 unchanged, skipping
+[Scraper] Article 4411743936147 unchanged, skipping
+[Scraper] Article 4408946045715 unchanged, skipping
+[Scraper] Article 4408658251027 unchanged, skipping
+[Scraper] Article 4408052029587 unchanged, skipping
+[Scraper] Article 4407493404307 unchanged, skipping
+[Scraper] Article 4407476403859 unchanged, skipping
+[Scraper] Article 4407386819731 unchanged, skipping
+[Scraper] Article 4407252213395 unchanged, skipping
+[Scraper] Article 4407128433299 unchanged, skipping
+[Scraper] Article 4407068788883 unchanged, skipping
+[Scraper] Article 4404827608467 unchanged, skipping
+[Scraper] Article 4404616139411 unchanged, skipping
+[Scraper] Article 4404590815635 unchanged, skipping
+[Scraper] Article 4404151402899 unchanged, skipping
+[Scraper] Article 4403616315539 unchanged, skipping
+[Scraper] Article 4403332894867 unchanged, skipping
+[Scraper] Article 4403306341523 unchanged, skipping
+[Scraper] Article 1500012522362 unchanged, skipping
+[Scraper] Article 1500010436341 unchanged, skipping
+[Scraper] Article 1500009937122 unchanged, skipping
+[Scraper] Article 1500009382101 unchanged, skipping
+[Scraper] Article 1500008008981 unchanged, skipping
+[Scraper] Article 1500006130902 unchanged, skipping
+[Scraper] Article 1500006056101 unchanged, skipping
+[Scraper] Article 1500005467601 unchanged, skipping
+[Scraper] Article 1500003161182 unchanged, skipping
+[Scraper] Article 360063098753 unchanged, skipping
+[Scraper] Article 1500002383502 unchanged, skipping
+[Scraper] Article 1500001561861 unchanged, skipping
+[Scraper] Article 360061576673 unchanged, skipping
+[Scraper] Article 1500000941981 unchanged, skipping
+[Scraper] Article 360059386254 unchanged, skipping
+[Scraper] Article 1500000493782 unchanged, skipping
+[Scraper] Article 1500000485202 unchanged, skipping
+[Scraper] Article 1500000480302 unchanged, skipping
+[Scraper] Article 360060676993 unchanged, skipping
+[Scraper] Article 360058345334 unchanged, skipping
+[Scraper] Article 360058259834 unchanged, skipping
+[Scraper] Article 360058936513 unchanged, skipping
+[Scraper] Article 360055549854 unchanged, skipping
+[Scraper] Article 360055546594 unchanged, skipping
+[Scraper] Article 360057327693 unchanged, skipping
+[Scraper] Article 360055328454 unchanged, skipping
+[Scraper] Article 360057146573 unchanged, skipping
+[Scraper] Article 360055080914 unchanged, skipping
+[Scraper] Article 360056655633 unchanged, skipping
+[Scraper] Article 360056627833 unchanged, skipping
+[Scraper] Article 360056090593 unchanged, skipping
+[Scraper] Article 360054298754 unchanged, skipping
+[Scraper] Article 360056087613 unchanged, skipping
+[Scraper] Article 360056086653 unchanged, skipping
+[Scraper] Article 360054033374 unchanged, skipping
+[Scraper] Article 360053198573 unchanged, skipping
+[Scraper] Article 360052361293 unchanged, skipping
+[Scraper] Article 360051745633 unchanged, skipping
+[Scraper] Article 360050728934 unchanged, skipping
+[Scraper] Article 360050602413 unchanged, skipping
+[Scraper] Article 360048914673 unchanged, skipping
+[Scraper] Article 360047275934 unchanged, skipping
+[Scraper] Article 360047232054 unchanged, skipping
+[Scraper] Article 360046356113 unchanged, skipping
+[Scraper] Article 360044614514 unchanged, skipping
+[Scraper] Article 360044600474 unchanged, skipping
+[Scraper] Article 360043670633 unchanged, skipping
+[Scraper] Article 360043621953 unchanged, skipping
+[Scraper] Article 360042736794 unchanged, skipping
+[Scraper] Article 360042143753 unchanged, skipping
+[Scraper] Article 360042143333 unchanged, skipping
+[Scraper] Article 360041587014 unchanged, skipping
+[Scraper] Article 360041570153 unchanged, skipping
+[Scraper] Article 360040943374 unchanged, skipping
+[Scraper] Article 360039566974 unchanged, skipping
+[Scraper] Article 360038992973 unchanged, skipping
+[Scraper] Article 360037416494 unchanged, skipping
+[Scraper] Article 360037391854 unchanged, skipping
+[Scraper] Article 360036465673 unchanged, skipping
+[Scraper] Article 360035538093 unchanged, skipping
+[Scraper] Article 360034883113 unchanged, skipping
+[Scraper] Article 360034379293 unchanged, skipping
+[Scraper] Article 360034219593 unchanged, skipping
+[Scraper] Article 360033693534 unchanged, skipping
+[Scraper] Article 360026610194 unchanged, skipping
+[Scraper] Article 360026559613 unchanged, skipping
+[Scraper] Article 360026559573 unchanged, skipping
+[Scraper] Article 360025661053 unchanged, skipping
+[Scraper] Article 360025626853 unchanged, skipping
+[Scraper] Article 360020931734 unchanged, skipping
+[Scraper] Article 360016313754 unchanged, skipping
+[Scraper] Article 360016252654 unchanged, skipping
+[Scraper] Article 360016247974 unchanged, skipping
+[Scraper] Article 360016342373 unchanged, skipping
+[Scraper] Article 42305104960147 unchanged, skipping
+[Scraper] Article 32272215514131 unchanged, skipping
+[Scraper] Article 30003143806099 unchanged, skipping
+[Scraper] Article 29863080711059 unchanged, skipping
+[Scraper] Article 28295074995859 unchanged, skipping
+[Scraper] Article 28026588373139 unchanged, skipping
+[Scraper] Article 25607930101907 unchanged, skipping
+[Scraper] Article 18986181635859 unchanged, skipping
+[Scraper] Article 4472060158355 unchanged, skipping
+[Scraper] Article 4414563797139 unchanged, skipping
+[Scraper] Article 360054557434 unchanged, skipping
+[Scraper] Article 360050855313 unchanged, skipping
+[Scraper] Article 360050642833 unchanged, skipping
+[Scraper] Article 360041501494 unchanged, skipping
+[Scraper] Article 360035739414 unchanged, skipping
+[Scraper] Article 360024310813 unchanged, skipping
+[Scraper] Article 360016380053 unchanged, skipping
+[Scraper] Article 42830652820115 unchanged, skipping
+[Scraper] Article 35626165056787 unchanged, skipping
+[Scraper] Article 32129032857875 unchanged, skipping
+[Scraper] Article 29838866920211 unchanged, skipping
+[Scraper] Article 27676133574547 unchanged, skipping
+[Scraper] Article 17639078588691 unchanged, skipping
+[Scraper] Article 6636047009427 unchanged, skipping
+[Scraper] Article 4414563863827 unchanged, skipping
+[Scraper] Article 1500002047642 unchanged, skipping
+[Scraper] Article 360053211594 unchanged, skipping
+[Scraper] Article 360051014773 unchanged, skipping
+[Scraper] Article 360034379573 unchanged, skipping
+[Scraper] Article 360016833514 unchanged, skipping
+[Scraper] Article 360016485633 unchanged, skipping
+[Scraper] Article 360016388733 unchanged, skipping
+[Scraper] Article 360016219114 unchanged, skipping
+[Scraper] Article 42436941395475 unchanged, skipping
+[Scraper] Article 29979283289235 unchanged, skipping
+[Scraper] Article 27607906766483 unchanged, skipping
+[Scraper] Article 17129313173395 unchanged, skipping
+[Scraper] Article 14726570281875 unchanged, skipping
+[Scraper] Article 4414553099667 unchanged, skipping
+[Scraper] Article 4403015887763 unchanged, skipping
+[Scraper] Article 1500004699122 unchanged, skipping
+[Scraper] Article 360063693093 unchanged, skipping
+[Scraper] Article 360021855653 unchanged, skipping
+[Scraper] Article 360019588654 unchanged, skipping
+[Scraper] Article 360017964153 unchanged, skipping
+[Scraper] Article 360016375153 unchanged, skipping
+[Scraper] Article 42526907045651 unchanged, skipping
+[Scraper] Article 27070013297427 unchanged, skipping
+[Scraper] Article 14557706459283 unchanged, skipping
+[Scraper] Article 4414558295955 unchanged, skipping
+[Scraper] Article 4411762539027 unchanged, skipping
+[Scraper] Article 1500008112642 unchanged, skipping
+[Scraper] Article 360034379693 unchanged, skipping
+[Scraper] Article 360016990233 unchanged, skipping
+[Scraper] Article 360016374813 unchanged, skipping
+[Scraper] Article 42157810188179 unchanged, skipping
+[Scraper] Article 36562094987795 unchanged, skipping
+[Scraper] Article 34087061669523 unchanged, skipping
+[Scraper] Article 14502723487379 unchanged, skipping
+[Scraper] Article 4404616314515 unchanged, skipping
+[Scraper] Article 1500011891542 unchanged, skipping
+[Scraper] Article 360058700673 unchanged, skipping
+[Scraper] Article 360042424294 unchanged, skipping
+[Scraper] Article 360016494933 unchanged, skipping
+[Scraper] Article 42307234534547 unchanged, skipping
+[Scraper] Article 36558834998291 unchanged, skipping
+[Scraper] Article 18500083191059 unchanged, skipping
+[Scraper] Article 14502378549907 unchanged, skipping
+[Scraper] Article 4404608957075 unchanged, skipping
+[Scraper] Article 360016361254 unchanged, skipping
+[Scraper] Article 360016174554 unchanged, skipping
+[Scraper] Article 42313875427859 unchanged, skipping
+[Scraper] Article 21449362442003 unchanged, skipping
+[Scraper] Article 12454101966355 unchanged, skipping
+[Scraper] Article 4414558369811 unchanged, skipping
+[Scraper] Article 1500009498782 unchanged, skipping
+[Scraper] Article 1500009042742 unchanged, skipping
+[Scraper] Article 1500003244381 unchanged, skipping
+[Scraper] Article 360016981853 unchanged, skipping
+[Scraper] Article 360016484473 unchanged, skipping
+[Scraper] Article 11784310183571 unchanged, skipping
+[Scraper] Article 5090125683219 unchanged, skipping
+[Scraper] Article 4414564078995 unchanged, skipping
+[Scraper] Article 360016484393 unchanged, skipping
+[Scraper] Article 360016375793 unchanged, skipping
+[Scraper] Article 36558469962643 unchanged, skipping
+[Scraper] Article 360019710493 unchanged, skipping
+[Scraper] Article 360016376793 unchanged, skipping
+[Scraper] Article 360016252394 unchanged, skipping
+[Scraper] Article 11116333259283 unchanged, skipping
+[Scraper] Article 11032964830227 unchanged, skipping
+[Scraper] Article 4414558392339 unchanged, skipping
+[Scraper] Article 360060049534 unchanged, skipping
+[Scraper] Article 360016253874 unchanged, skipping
+[Scraper] Article 12498801963027 unchanged, skipping
+[Scraper] Article 10259143299219 unchanged, skipping
+[Scraper] Article 4414496579475 unchanged, skipping
+[Scraper] Article 360016253694 unchanged, skipping
+[Scraper] Article 12947820509971 unchanged, skipping
+[Scraper] Article 9392587446675 unchanged, skipping
+[Scraper] Article 4404879296403 unchanged, skipping
+[Scraper] Article 360021856013 unchanged, skipping
+[Scraper] Article 360016253574 unchanged, skipping
+[Scraper] Article 8899727608083 unchanged, skipping
+[Scraper] Article 8399990754195 unchanged, skipping
+[Scraper] Article 8369526604435 unchanged, skipping
+[Scraper] Article 8098889840531 unchanged, skipping
+[Scraper] Article 8066591235603 unchanged, skipping
+[Scraper] Article 6757989639827 unchanged, skipping
+[Scraper] Article 6604468198291 unchanged, skipping
+[Scraper] Article 6091289267475 unchanged, skipping
+[Scraper] Article 6086986017299 unchanged, skipping
+[Scraper] Article 5149077938835 unchanged, skipping
+[Scraper] Article 5119724468371 unchanged, skipping
+[Scraper] Article 4529298306963 unchanged, skipping
+[Scraper] Article 4417940565139 unchanged, skipping
+[Scraper] Article 4414539282067 unchanged, skipping
+[Scraper] Article 4414355658899 unchanged, skipping
+[Scraper] Article 4411530012307 unchanged, skipping
+[Scraper] Article 4410655948563 unchanged, skipping
+[Scraper] Article 4409673381011 unchanged, skipping
+[Scraper] Article 4409607912211 unchanged, skipping
+[Scraper] Article 4409448788499 unchanged, skipping
+[Scraper] Article 4408052949139 unchanged, skipping
+[Scraper] Article 4407335862931 unchanged, skipping
+[Scraper] Article 4407080297747 unchanged, skipping
+[Scraper] Article 4406214738707 unchanged, skipping
+[Scraper] Article 4406180781203 unchanged, skipping
+[Scraper] Article 4404053129619 unchanged, skipping
+[Scraper] Article 4403267825171 unchanged, skipping
+[Scraper] Article 1500011611322 unchanged, skipping
+[Scraper] Article 1500009492202 unchanged, skipping
+[Scraper] Article 1500009343862 unchanged, skipping
+[Scraper] Article 1500005889381 unchanged, skipping
+[Scraper] Article 1500005888781 unchanged, skipping
+[Scraper] Article 1500002233221 unchanged, skipping
+[Scraper] Article 1500002131621 unchanged, skipping
+[Scraper] Article 1500002042241 unchanged, skipping
+[Scraper] Article 1500001985341 unchanged, skipping
+[Scraper] Article 360060284174 unchanged, skipping
+[Scraper] Article 360060202914 unchanged, skipping
+[Scraper] Article 360060919453 unchanged, skipping
+[Scraper] Article 360058855273 unchanged, skipping
+[Scraper] Article 360056977214 unchanged, skipping
+[Scraper] Article 360056356414 unchanged, skipping
+[Scraper] Article 360055900513 unchanged, skipping
+[Scraper] Article 360053993934 unchanged, skipping
+[Scraper] Article 360052827713 unchanged, skipping
+[Scraper] Article 360052513253 unchanged, skipping
+[Scraper] Article 360052088413 unchanged, skipping
+[Scraper] Article 360051317774 unchanged, skipping
+[Scraper] Article 360051495193 unchanged, skipping
+[Scraper] Article 360050244454 unchanged, skipping
+[Scraper] Article 360051014713 unchanged, skipping
+[Scraper] Article 360049875794 unchanged, skipping
+[Scraper] Article 360049872414 unchanged, skipping
+[Scraper] Article 360050665413 unchanged, skipping
+[Scraper] Article 360050665253 unchanged, skipping
+[Scraper] Article 360050664913 unchanged, skipping
+[Scraper] Article 360049159814 unchanged, skipping
+[Scraper] Article 360049156234 unchanged, skipping
+[Scraper] Article 360049919933 unchanged, skipping
+[Scraper] Article 360049155994 unchanged, skipping
+[Scraper] Article 360049518313 unchanged, skipping
+[Scraper] Article 360049328493 unchanged, skipping
+[Scraper] Article 360049030453 unchanged, skipping
+[Scraper] Article 360048660813 unchanged, skipping
+[Scraper] Article 360047501233 unchanged, skipping
+[Scraper] Article 360047499893 unchanged, skipping
+[Scraper] Article 360046859534 unchanged, skipping
+[Scraper] Article 360044619014 unchanged, skipping
+[Scraper] Article 360045121233 unchanged, skipping
+[Scraper] Article 360044613874 unchanged, skipping
+[Scraper] Article 360045120133 unchanged, skipping
+[Scraper] Article 360044115513 unchanged, skipping
+[Scraper] Article 360042950593 unchanged, skipping
+[Scraper] Article 360042450514 unchanged, skipping
+[Scraper] Article 360041222994 unchanged, skipping
+[Scraper] Article 360041638433 unchanged, skipping
+[Scraper] Article 360041481553 unchanged, skipping
+[Scraper] Article 360040991534 unchanged, skipping
+[Scraper] Article 360040991474 unchanged, skipping
+[Scraper] Article 360041476213 unchanged, skipping
+[Scraper] Article 360041428353 unchanged, skipping
+[Scraper] Article 360039264133 unchanged, skipping
+[Scraper] Article 360038769394 unchanged, skipping
+[Scraper] Article 360037463934 unchanged, skipping
+[Scraper] Article 360036250853 unchanged, skipping
+[Scraper] Article 360037965133 unchanged, skipping
+[Scraper] Article 360035815114 unchanged, skipping
+[Scraper] Article 360024859713 unchanged, skipping
+[Scraper] Article 360023848334 unchanged, skipping
+[Scraper] Article 360016375473 unchanged, skipping
+[Scraper] Article 360016375573 unchanged, skipping
+[Scraper] Article 360022393473 unchanged, skipping
+[Scraper] Article 360019517953 unchanged, skipping
+[Scraper] Article 360016254994 unchanged, skipping
+[Scraper] Article 360016382473 unchanged, skipping
+[Scraper] Metadata saved successfully
+[Scraper] Processing completed at 2025-07-19 07:11:02
+[Scraper] Execution time: 59.41 seconds
+[Scraper] Summary: 394 total articles processed
+[Scraper] Results: 0 new, 0 updated, 394 skipped
+[Scraper] No new or updated articles found
+================ Finished article scraping ===============
+
+================ Starting article upload ================
+[Upload] Starting upload process at 2025-07-19 07:11:02
+[Upload] Articles to process: 0 total (0 new, 0 updated)
+[Upload] Batch size: 10
+[Upload] No articles to upload
+================ Finished article upload ================
+
