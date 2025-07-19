@@ -7,7 +7,6 @@ logger = setup_logging()
 
 def main():
     # Execute scraping to get delta articles
-    # print("Starting article scraping...")
     logger.info("================ Starting article scraping ===============")
     articles, tracked_metadata = scrape_main()
     logger.info("================ Finished article scraping ===============\n")
