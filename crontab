@@ -1,2 +1,2 @@
 # Run the script every 10 minutes
-*/10 * * * * cd /app && echo "----- START: Script execution at $(date) -----" >> /var/log/cron.log && /usr/local/bin/python -m src.main >> /var/log/cron.log 2>&1; echo "----- END: Script execution completed at $(date) with exit code $? -----" >> /var/log/cron.log
+0 0 * * * cd /app && echo "----- START: Script execution at $(date) -----" >> /var/log/cron.log && /usr/local/bin/python -m src.main >> /var/log/cron.log 2>&1; echo "----- END: Script execution completed at $(date) with exit code $? -----" >> /var/log/cron.log
