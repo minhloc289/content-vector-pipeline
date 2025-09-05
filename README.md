@@ -1,4 +1,4 @@
-# Assignment - Article Scraper and OpenAI Vector Store Uploader
+# Article Scraper and OpenAI Vector Store Uploader
 
 ## About
 
